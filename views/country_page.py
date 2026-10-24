@@ -114,7 +114,10 @@ def _ai_country_block(country: dict[str, Any], result: dict[str, Any], suffix: s
             if text:
                 st.markdown(text)
             else:
-                st.warning("L'appel IA n'a pas abouti. Le contenu éditorial reste disponible.")
+                st.warning(
+                    "L'appel IA n'a pas abouti. Le contenu éditorial reste disponible."
+                    + (f" Détail : {ai.last_error()}" if ai.last_error() else "")
+                )
 
 
 def _render_quiz(country: dict[str, Any]) -> None:

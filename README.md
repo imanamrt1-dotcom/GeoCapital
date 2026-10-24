@@ -39,19 +39,33 @@ L'application s'ouvre sur <http://localhost:8501>.
 
 ## Intelligence artificielle (optionnelle)
 
-L'application fonctionne **entièrement sans IA** grâce aux contenus éditoriaux et aux calculs déterministes.
+L'application fonctionne **entièrement sans IA** grâce aux contenus éditoriaux et aux calculs déterministes. La couche IA ajoute seulement une reformulation : elle n'alimente jamais les scores, les chiffres ou les verdicts.
 
-Pour activer Claude Haiku :
+Modèle utilisé par défaut : **`claude-haiku-5-5`** (surchargeable avec `GEOCAPITAL_MODEL`).
+
+### En local (PowerShell)
 
 ```powershell
 $env:ANTHROPIC_API_KEY = "votre_cle"
+# facultatif : forcer un autre identifiant de modèle
+$env:GEOCAPITAL_MODEL = "claude-haiku-5-5"
+py -m streamlit run app.py
 ```
 
-ou, sur Streamlit Community Cloud, ajoutez la clé dans les *secrets* :
+Ou créez `.streamlit/secrets.toml` à partir de `.streamlit/secrets.toml.example` :
 
 ```toml
 ANTHROPIC_API_KEY = "votre_cle"
+GEOCAPITAL_MODEL = "claude-haiku-5-5"
 ```
+
+### Sur Streamlit Community Cloud
+
+Dans *App settings → Secrets*, collez le même bloc TOML. La clé reste côté serveur : elle n'est jamais dans le dépôt (`.streamlit/secrets.toml` est exclu par `.gitignore`).
+
+### Vérifier que l'IA est active
+
+La barre latérale affiche **« IA connectée »** quand une clé est détectée. Sans clé, elle affiche le mode éditorial et l'application reste complète.
 
 L'IA reçoit uniquement les faits déjà validés dans la base. Elle explique, reformule et relie ; elle ne crée aucun chiffre, aucune date et aucune notation.
 

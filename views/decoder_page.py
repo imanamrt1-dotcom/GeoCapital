@@ -102,7 +102,10 @@ def render() -> None:
                     if text:
                         st.markdown(text)
                     else:
-                        st.warning("L'appel IA n'a pas abouti. Le contenu éditorial reste disponible.")
+                        st.warning(
+                            "L'appel IA n'a pas abouti. Le contenu éditorial reste disponible."
+                            + (f" Détail : {ai.last_error()}" if ai.last_error() else "")
+                        )
 
     with side_col:
         ui.section_title("Qui gagne, qui perd", "entreprises, actifs, pays exposés")

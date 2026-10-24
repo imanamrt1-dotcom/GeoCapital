@@ -314,7 +314,10 @@ def render() -> None:
                     if text:
                         st.markdown(text)
                     else:
-                        st.warning("L'appel IA n'a pas abouti. Le diagnostic déterministe reste disponible.")
+                        st.warning(
+                            "L'appel IA n'a pas abouti. Le diagnostic déterministe reste disponible."
+                            + (f" Détail : {ai.last_error()}" if ai.last_error() else "")
+                        )
     with dl_col:
         import pandas as pd
 

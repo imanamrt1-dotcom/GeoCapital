@@ -14,8 +14,10 @@ import urllib.request
 from typing import Any
 
 API_URL = "https://api.anthropic.com/v1/messages"
-DEFAULT_MODEL = os.getenv("GEOCAPITAL_MODEL", "claude-haiku-4-5-20251001")
+DEFAULT_MODEL = "claude-haiku-5-5"
 MAX_TOKENS = 700
+
+_LAST_ERROR: str | None = None
 
 SYSTEM_RULES = """Tu es l'analyste pédagogique de GeoCapital.
 Règles absolues :
@@ -28,29 +30,47 @@ Règles absolues :
 """
 
 
-def api_key() -> str | None:
-    key = os.getenv("ANTHROPIC_API_KEY", "").strip()
-    if key:
-        return key
+def _secret(name: str) -> str:
+    """Lit un secret Streamlit sans faire échouer l'app hors runtime."""
     try:
         import streamlit as st
 
-        secret = st.secrets.get("ANTHROPIC_API_KEY", "")
-        return str(secret).strip() or None
+        return str(st.secrets.get(name, "")).strip()
     except Exception:
-        return None
+        return ""
+
+
+def api_key() -> str | None:
+    key = os.getenv("ANTHROPIC_API_KEY", "").strip() or _secret("ANTHROPIC_API_KEY")
+    return key or None
+
+
+def model_name() -> str:
+    """Modèle configurable par variable d'environnement ou secrets Streamlit."""
+    return (
+        os.getenv("GEOCAPITAL_MODEL", "").strip()
+        or _secret("GEOCAPITAL_MODEL")
+        or DEFAULT_MODEL
+    )
 
 
 def is_available() -> bool:
     return bool(api_key())
 
 
+def last_error() -> str | None:
+    """Dernière erreur d'appel, utile pour diagnostiquer une clé ou un modèle invalide."""
+    return _LAST_ERROR
+
+
 def _call(prompt: str, max_tokens: int = MAX_TOKENS) -> str | None:
+    global _LAST_ERROR
+    _LAST_ERROR = None
     key = api_key()
     if not key:
         return None
     payload = {
-        "model": DEFAULT_MODEL,
+        "model": model_name(),
         "max_tokens": max_tokens,
         "temperature": 0.2,
         "system": SYSTEM_RULES,
@@ -72,7 +92,18 @@ def _call(prompt: str, max_tokens: int = MAX_TOKENS) -> str | None:
         blocks = data.get("content", [])
         text = " ".join(block.get("text", "") for block in blocks if block.get("type") == "text")
         return text.strip() or None
-    except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError, ValueError, KeyError):
+    except urllib.error.HTTPError as exc:
+        try:
+            detail = json.loads(exc.read().decode("utf-8")).get("error", {}).get("message", "")
+        except Exception:
+            detail = ""
+        _LAST_ERROR = f"API {exc.code}" + (f" — {detail}" if detail else "")
+        return None
+    except (urllib.error.URLError, TimeoutError) as exc:
+        _LAST_ERROR = f"Connexion impossible ({getattr(exc, 'reason', exc)})."
+        return None
+    except (ValueError, KeyError, TypeError) as exc:
+        _LAST_ERROR = f"Réponse illisible ({exc.__class__.__name__})."
         return None
 
 

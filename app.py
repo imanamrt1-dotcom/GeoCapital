@@ -105,7 +105,10 @@ def _sidebar() -> None:
 
         st.markdown('<div class="gc-side-label">Moteur</div>', unsafe_allow_html=True)
         if ai.is_available():
-            st.markdown('<span class="gc-chip green">● IA connectée · Claude Haiku</span>', unsafe_allow_html=True)
+            st.markdown(
+                f'<span class="gc-chip green">● IA connectée · {ai.model_name()}</span>',
+                unsafe_allow_html=True,
+            )
         else:
             st.markdown('<span class="gc-chip">○ Mode éditorial · IA optionnelle</span>', unsafe_allow_html=True)
         st.markdown(
