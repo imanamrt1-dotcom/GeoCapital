@@ -1,0 +1,207 @@
+{
+  "id": "usa",
+  "name": "États-Unis",
+  "official_name": "États-Unis d'Amérique",
+  "iso3": "USA",
+  "flag": "🇺🇸",
+  "region": "Amérique du Nord",
+  "group": "Développé",
+  "group_key": "developed",
+  "headline": "Le dollar, la technologie et la profondeur des marchés.",
+  "summary": "Née d'une révolution contre la fiscalité britannique, la première économie mondiale s'est construite sur un immense marché intérieur, un droit des affaires favorable au capital et le privilège du dollar. Aujourd'hui, son risque n'est pas tant la faillite que la polarisation politique, le poids de la dette et la dépendance à quelques géants technologiques.",
+  "history": [
+    {
+      "year": "1776",
+      "title": "Indépendance",
+      "text": "Les treize colonies se séparent de Londres. La Constitution de 1787 crée un marché commun, une monnaie fédérale et un cadre juridique qui protège la propriété."
+    },
+    {
+      "year": "1865",
+      "title": "Fin de la guerre de Sécession",
+      "text": "La victoire de l'Union accélère l'industrialisation du Nord. Le pays devient une puissance manufacturière continentale."
+    },
+    {
+      "year": "1929",
+      "title": "Krach et New Deal",
+      "text": "La crise révèle les dangers d'une finance peu régulée. Roosevelt crée la SEC, l'assurance chômage et les grands travaux : l'État devient un stabilisateur."
+    },
+    {
+      "year": "1944",
+      "title": "Bretton Woods",
+      "text": "Le dollar devient la monnaie de réserve mondiale, convertible en or. Les États-Unis structurent le FMI, la Banque mondiale et le commerce mondial."
+    },
+    {
+      "year": "1971",
+      "title": "Fin de la convertibilité en or",
+      "text": "Nixon ferme le guichet de l'or. Le dollar flotte, mais reste dominant grâce à la profondeur des marchés Treasury et au pétrole facturé en dollars."
+    },
+    {
+      "year": "2008",
+      "title": "Crise financière et QE",
+      "text": "La faillite de Lehman débouche sur des rachats massifs d'actifs par la Fed. La politique monétaire devient un outil central de gestion du cycle."
+    },
+    {
+      "year": "2022-2024",
+      "title": "Inflation, taux et IA",
+      "text": "La Fed remonte brutalement ses taux pour casser l'inflation. L'économie tient, portée par l'emploi et l'investissement dans l'intelligence artificielle."
+    }
+  ],
+  "institutions": {
+    "regime": "République fédérale présidentielle",
+    "executive": "Président élu pour 4 ans, séparation stricte des pouvoirs",
+    "legislature": "Congrès bicaméral : Sénat et Chambre des représentants",
+    "central_bank": "Federal Reserve (Fed), indépendante depuis 1913",
+    "currency": "Dollar américain (USD), monnaie de réserve mondiale",
+    "law": "Common law, droits des États fédérés, forte protection contractuelle",
+    "fact": "Le marché obligataire américain est le plus liquide du monde : il fixe le prix du risque global."
+  },
+  "relations": {
+    "allies": [
+      {
+        "name": "Japon",
+        "note": "Alliance de sécurité et intégration technologique."
+      },
+      {
+        "name": "Royaume-Uni",
+        "note": "Renseignement, défense et marché financier."
+      },
+      {
+        "name": "Union européenne",
+        "note": "Partenaire commercial, parfois concurrent régulateur."
+      }
+    ],
+    "rivals": [
+      {
+        "name": "Chine",
+        "note": "Concurrence technologique, industrielle et militaire."
+      },
+      {
+        "name": "Russie",
+        "note": "Opposition géopolitique, sanctions et contrôle des armements."
+      }
+    ],
+    "dependencies": [
+      {
+        "name": "Chine",
+        "note": "Chaînes d'approvisionnement, terres rares, biens de consommation."
+      },
+      {
+        "name": "Taïwan",
+        "note": "Semi-conducteurs avancés : un point de fragilité stratégique."
+      },
+      {
+        "name": "Canada / Mexique",
+        "note": "Échanges intégrés par l'USMCA, énergie et automobile."
+      }
+    ]
+  },
+  "indicators": {
+    "gdp_growth": {
+      "value": 2.8,
+      "unit": "%",
+      "date": "2024",
+      "source": "FMI, WEO",
+      "note": "La consommation des ménages et l'investissement technologique prennent le relais d'une politique budgétaire très expansionniste."
+    },
+    "inflation": {
+      "value": 2.9,
+      "unit": "%",
+      "date": "2024",
+      "source": "Bureau of Labor Statistics",
+      "note": "L'inflation ralentit mais reste au-dessus de la cible de 2 %. Les services et le logement sont les derniers points durs."
+    },
+    "debt_gdp": {
+      "value": 123,
+      "unit": "%",
+      "date": "2024",
+      "source": "FMI, WEO",
+      "note": "La dette fédérale est élevée, mais financée dans la monnaie de réserve. Le vrai risque est politique : le coût des taux."
+    },
+    "policy_rate": {
+      "value": 4.33,
+      "unit": "%",
+      "date": "déc. 2024",
+      "source": "Federal Reserve",
+      "note": "La Fed assouplit progressivement après le pic de 2023. Un taux réel positif laisse de la marge si l'inflation surprend."
+    },
+    "unemployment": {
+      "value": 4.1,
+      "unit": "%",
+      "date": "2024",
+      "source": "Bureau of Labor Statistics",
+      "note": "Le marché du travail reste solide, ce qui soutient la consommation et retarde le risque de récession."
+    },
+    "reserves": {
+      "value": 250,
+      "unit": "Mds $",
+      "date": "2024",
+      "source": "FMI / Trésor",
+      "note": "Les réserves comptent moins pour un émetteur de la monnaie de réserve : la liquidité du dollar est l'amortisseur."
+    },
+    "rating": {
+      "value": "AA+",
+      "agency": "S&P",
+      "date": "2024",
+      "source": "S&P Global Ratings",
+      "note": "La note reste très haute, malgré les tensions budgétaires et les blocages au Congrès."
+    },
+    "cds": {
+      "value": 40,
+      "unit": "pb",
+      "date": "2024",
+      "source": "CMA / marché",
+      "note": "Le marché price un risque politique et budgétaire faible à court terme. Les CDS américains servent de référence mondiale."
+    },
+    "equity_index": {
+      "name": "S&P 500",
+      "level": 5882,
+      "perf_1y": 23.3,
+      "date": "2024",
+      "source": "S&P Dow Jones Indices",
+      "note": "La performance est concentrée sur les mégacaps technologiques : la largeur du marché est un point de vigilance."
+    },
+    "currency": {
+      "code": "USD",
+      "name": "Dollar américain",
+      "perf_1y": 7.0,
+      "date": "2024",
+      "source": "Fed / BRI",
+      "note": "Le dollar reste la devise refuge et de facturation dominante. Sa force pèse sur les pays endettés en dollars."
+    }
+  },
+  "qualitative": {
+    "outlook": 65,
+    "currency_stability": 92,
+    "governance": 74,
+    "resilience": 80,
+    "business": 82,
+    "openness": 70
+  },
+  "strengths": [
+    "Profondeur inégalée des marchés de capitaux et statut du dollar.",
+    "Écosystème technologique, universités et capacité d'innovation.",
+    "Marché du travail flexible et démographie plus dynamique que l'Europe."
+  ],
+  "risks": [
+    "Polarisation politique et risque de blocage budgétaire.",
+    "Dette fédérale élevée dans un régime de taux plus hauts.",
+    "Concentration boursière et dépendance aux géants technologiques."
+  ],
+  "opportunities": [
+    "Investissement dans l'IA, les semi-conducteurs et l'énergie.",
+    "Réindustrialisation partielle soutenue par des subventions publiques.",
+    "Profondeur de l'accès aux marchés pour les exportateurs."
+  ],
+  "quiz": {
+    "question": "Qui décide de la politique monétaire américaine ?",
+    "options": [
+      "Le Trésor",
+      "La Federal Reserve",
+      "Le Congrès",
+      "La Banque mondiale"
+    ],
+    "answer": 1,
+    "explanation": "La Fed est indépendante du pouvoir politique. Elle fixe les taux pour viser le plein emploi et la stabilité des prix, même si le Trésor gère la dette."
+  },
+  "order": 1
+}

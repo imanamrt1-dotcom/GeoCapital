@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+build/
+dist/
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Outils et système
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Captures et exports locaux
+preview_*.png
+*.log
+geocapital_*.csv

@@ -1,0 +1,202 @@
+{
+  "id": "france",
+  "name": "France",
+  "official_name": "République française",
+  "iso3": "FRA",
+  "flag": "🇫🇷",
+  "region": "Europe de l'Ouest",
+  "group": "Développé",
+  "group_key": "developed",
+  "headline": "Un État fort, un marché unique, une dette à surveiller.",
+  "summary": "La France a construit sa puissance sur un État centralisateur, une administration solide et l'intégration européenne. Son modèle social protège et stabilise, mais il coûte cher : la dette publique et la fragmentation politique sont devenues les deux variables que les marchés regardent le plus.",
+  "history": [
+    {
+      "year": "1789",
+      "title": "Révolution française",
+      "text": "La fin de l'Ancien Régime installe l'égalité devant la loi et la souveraineté nationale. L'État centralisé hérite d'une forte capacité de mobilisation."
+    },
+    {
+      "year": "1945",
+      "title": "Refondation sociale",
+      "text": "Après-guerre, la France crée la Sécurité sociale et lance la planification indicative. L'État devient investisseur et coordonne la reconstruction."
+    },
+    {
+      "year": "1958",
+      "title": "Ve République",
+      "text": "De Gaulle donne au président un pouvoir stable et une diplomatie autonome. La Constitution de 1958 reste le cadre institutionnel actuel."
+    },
+    {
+      "year": "1992",
+      "title": "Traité de Maastricht",
+      "text": "La France s'engage dans la monnaie unique. Elle perd la maîtrise de son taux directeur mais gagne la crédibilité de l'euro et un marché de 450 millions de consommateurs."
+    },
+    {
+      "year": "2002",
+      "title": "Passage à l'euro",
+      "text": "Les francs disparaissent. L'Eurosystème devient le véritable pilote monétaire ; la Banque de France conserve la supervision et la stabilité financière."
+    },
+    {
+      "year": "2024",
+      "title": "Fragmentation politique",
+      "text": "La dissolution de l'Assemblée nationale ouvre une période d'instabilité gouvernementale. Les spreads français s'écartent de l'Allemagne, signal d'une prime de risque politique."
+    }
+  ],
+  "institutions": {
+    "regime": "République semi-présidentielle",
+    "executive": "Président élu pour 5 ans, Premier ministre responsable devant l'Assemblée",
+    "legislature": "Assemblée nationale et Sénat",
+    "central_bank": "Banque de France, membre de l'Eurosystème ; BCE pour la politique monétaire",
+    "currency": "Euro (EUR)",
+    "law": "Droit civil, Code napoléonien, forte tradition administrative",
+    "fact": "La France est la deuxième économie de la zone euro et l'un des principaux émetteurs de dette souveraine de la zone."
+  },
+  "relations": {
+    "allies": [
+      {
+        "name": "Allemagne",
+        "note": "Moteur de l'intégration européenne et partenaire industriel."
+      },
+      {
+        "name": "États-Unis",
+        "note": "Alliance de défense, malgré des désaccords commerciaux."
+      },
+      {
+        "name": "Union européenne",
+        "note": "Marché unique, règles communes, fonds de relance."
+      }
+    ],
+    "rivals": [
+      {
+        "name": "Royaume-Uni",
+        "note": "Concurrence financière post-Brexit et différends sur la pêche."
+      },
+      {
+        "name": "Chine",
+        "note": "Rival industrialo-commercial, notamment dans l'automobile électrique."
+      }
+    ],
+    "dependencies": [
+      {
+        "name": "Allemagne",
+        "note": "Chaînes de valeur industrielles et excédent commercial allemand."
+      },
+      {
+        "name": "Chine",
+        "note": "Composants, terres rares et demande de luxe."
+      },
+      {
+        "name": "Importations d'énergie",
+        "note": "Pétrole, gaz et uranium doivent être sécurisés."
+      }
+    ]
+  },
+  "indicators": {
+    "gdp_growth": {
+      "value": 1.1,
+      "unit": "%",
+      "date": "2024",
+      "source": "INSEE / FMI",
+      "note": "La croissance est molle : l'investissement et les exportations manquent d'élan, la consommation résiste grâce à la désinflation."
+    },
+    "inflation": {
+      "value": 2.0,
+      "unit": "%",
+      "date": "2024",
+      "source": "INSEE",
+      "note": "L'inflation est revenue proche de la cible de la BCE. La baisse des prix de l'énergie a fait l'essentiel du travail."
+    },
+    "debt_gdp": {
+      "value": 112,
+      "unit": "%",
+      "date": "2024",
+      "source": "INSEE / FMI",
+      "note": "La dette dépasse nettement la moyenne de la zone euro. Le déficit élevé et la hausse des charges d'intérêts réduisent la marge de manœuvre."
+    },
+    "policy_rate": {
+      "value": 3.0,
+      "unit": "%",
+      "date": "déc. 2024",
+      "source": "BCE",
+      "note": "La BCE assouplit après le pic de 2023. La France subit une politique monétaire calibrée pour l'ensemble de la zone euro."
+    },
+    "unemployment": {
+      "value": 7.4,
+      "unit": "%",
+      "date": "2024",
+      "source": "INSEE",
+      "note": "Le chômage reste plus élevé qu'en Allemagne, avec un noyau de chômage de longue durée et des écarts importants selon les territoires."
+    },
+    "reserves": {
+      "value": 265,
+      "unit": "Mds $",
+      "date": "2024",
+      "source": "Banque de France / FMI",
+      "note": "Les réserves participent à la stabilité de l'euro et au filet de sécurité de l'Eurosystème. La France ne dépend pas d'elles pour se financer."
+    },
+    "rating": {
+      "value": "AA-",
+      "agency": "S&P",
+      "date": "2024",
+      "source": "S&P Global Ratings",
+      "note": "La notation reste solide, mais la trajectoire budgétaire est le principal motif de surveillance des agences."
+    },
+    "cds": {
+      "value": 35,
+      "unit": "pb",
+      "date": "2024",
+      "source": "CMA / marché",
+      "note": "Le risque perçu reste faible. L'écart avec l'Allemagne s'est toutefois élargi avec l'incertitude politique de 2024."
+    },
+    "equity_index": {
+      "name": "CAC 40",
+      "level": 7380,
+      "perf_1y": -2.2,
+      "date": "2024",
+      "source": "Euronext",
+      "note": "L'indice souffre de l'exposition au luxe chinois et de l'incertitude politique, malgré les banques et l'énergie."
+    },
+    "currency": {
+      "code": "EUR",
+      "name": "Euro",
+      "perf_1y": -6.2,
+      "date": "2024",
+      "source": "BCE / BRI",
+      "note": "L'euro est une monnaie de réserve solide, mais sa parité avec le dollar reste sensible aux taux américains."
+    }
+  },
+  "qualitative": {
+    "outlook": 50,
+    "currency_stability": 85,
+    "governance": 78,
+    "resilience": 75,
+    "business": 68,
+    "openness": 80
+  },
+  "strengths": [
+    "Institutions solides et appartenance à la zone euro.",
+    "Productivité, démographie et niveau d'éducation élevés.",
+    "Position centrale dans le marché unique et attractivité des investissements étrangers."
+  ],
+  "risks": [
+    "Dette publique et déficit budgétaire sans majorité politique claire.",
+    "Instabilité gouvernementale et difficulté à réformer.",
+    "Perte de compétitivité industrielle face à la Chine et aux États-Unis."
+  ],
+  "opportunities": [
+    "Réindustrialisation via France 2030 et l'électrification.",
+    "Énergie décarbonée et attractivité des data centers.",
+    "Place financière de Paris renforcée par le Brexit."
+  ],
+  "quiz": {
+    "question": "Quel traité a engagé la France vers la monnaie unique européenne ?",
+    "options": [
+      "Traité de Rome",
+      "Traité de Maastricht",
+      "Traité de Lisbonne",
+      "Traité de Versailles"
+    ],
+    "answer": 1,
+    "explanation": "Le traité de Maastricht (1992) crée l'Union européenne et organise la convergence vers l'euro. La monnaie unique entre en circulation en 2002."
+  },
+  "order": 2
+}

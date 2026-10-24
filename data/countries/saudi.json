@@ -1,0 +1,202 @@
+{
+  "id": "saudi",
+  "name": "Arabie saoudite",
+  "official_name": "Royaume d'Arabie saoudite",
+  "iso3": "SAU",
+  "flag": "🇸🇦",
+  "region": "Moyen-Orient",
+  "group": "Golfe",
+  "group_key": "gulf",
+  "headline": "La rente pétrolière finance une réinvention.",
+  "summary": "Unifiée en 1932, l'Arabie saoudite a bâti sa puissance sur le pétrole et sur son rôle de gardienne des lieux saints. Le pays reste très dépendant du prix du baril, mais Vision 2030 cherche à développer le tourisme, la logistique et l'industrie pour préparer l'après-pétrole.",
+  "history": [
+    {
+      "year": "1932",
+      "title": "Unification du royaume",
+      "text": "Ibn Saoud rassemble les tribus du Najd et du Hedjaz. Le royaume acquiert un territoire immense, les lieux saints de l'islam et une légitimité religieuse."
+    },
+    {
+      "year": "1938",
+      "title": "Découverte du pétrole",
+      "text": "Le puits de Dammam ouvre l'ère de la rente. L'Aramco, contrôlée par les Américains puis nationalisée, devient le cœur de l'économie."
+    },
+    {
+      "year": "1979",
+      "title": "Choc de la Grande Mosquée",
+      "text": "La prise d'otages de La Mecque et la révolution iranienne durcissent le régime. La rente pétrolière finance un État-providence et un islam conservateur."
+    },
+    {
+      "year": "2016",
+      "title": "Vision 2030",
+      "text": "Mohammed ben Salman lance un plan de diversification : Aramco en Bourse, tourisme, divertissement, énergies renouvelables et réduction des subventions."
+    },
+    {
+      "year": "2018",
+      "title": "Affaire Khashoggi",
+      "text": "L'assassinat du journaliste au consulat d'Istanbul ternit l'image du royaume et refroidit certains investisseurs étrangers, malgré la poursuite des réformes."
+    },
+    {
+      "year": "2023-2024",
+      "title": "Diplomatie et coupes pétrolières",
+      "text": "Le rapprochement avec l'Iran et la normalisation régionale avancent. Les coupes de production soutiennent les prix mais réduisent la croissance et les recettes."
+    }
+  ],
+  "institutions": {
+    "regime": "Monarchie absolue, dynastie Al Saoud",
+    "executive": "Roi, Conseil des ministres et prince héritier, forte concentration du pouvoir",
+    "legislature": "Conseil de la Choura, nommé, rôle consultatif",
+    "central_bank": "Saudi Central Bank (SAMA), défend l'ancrage du riyal au dollar",
+    "currency": "Riyal saoudien (SAR), arrimé au dollar",
+    "law": "Charia comme source principale, tribunaux spéciaux et droit des affaires modernisé",
+    "fact": "Le budget dépend encore largement des hydrocarbures ; le fonds souverain PIF finance la diversification."
+  },
+  "relations": {
+    "allies": [
+      {
+        "name": "États-Unis",
+        "note": "Sécurité, pétrole et ventes d'armes, malgré des divergences."
+      },
+      {
+        "name": "Émirats arabes unis",
+        "note": "Partenaires du Golfe, aussi concurrents sur le tourisme et la logistique."
+      },
+      {
+        "name": "Chine",
+        "note": "Premier client pétrolier et partenaire industriel croissant."
+      }
+    ],
+    "rivals": [
+      {
+        "name": "Iran",
+        "note": "Rivalité régionale, chiite/sunnite et influence au Yémen."
+      },
+      {
+        "name": "Qatar",
+        "note": "Crise de 2017-2021, concurrence médiatique et diplomatique."
+      }
+    ],
+    "dependencies": [
+      {
+        "name": "Prix du pétrole",
+        "note": "Les recettes budgétaires restent indexées sur le baril."
+      },
+      {
+        "name": "Chine",
+        "note": "Débouché essentiel pour le brut saoudien."
+      },
+      {
+        "name": "États-Unis",
+        "note": "Garantie de sécurité et technologies sensibles."
+      }
+    ]
+  },
+  "indicators": {
+    "gdp_growth": {
+      "value": 1.3,
+      "unit": "%",
+      "date": "2024",
+      "source": "FMI, WEO",
+      "note": "La croissance est freinée par les coupes de production pétrolière. Les secteurs non pétroliers progressent, mais pas assez pour compenser."
+    },
+    "inflation": {
+      "value": 1.7,
+      "unit": "%",
+      "date": "2024",
+      "source": "GASTAT / FMI",
+      "note": "L'inflation reste modérée grâce au riyal arrimé au dollar et aux subventions, mais les réformes fiscales peuvent renchérir certains services."
+    },
+    "debt_gdp": {
+      "value": 30,
+      "unit": "%",
+      "date": "2024",
+      "source": "FMI, WEO",
+      "note": "La dette est faible et le fonds souverain dispose d'actifs considérables. La contrainte est le prix du pétrole, pas la solvabilité."
+    },
+    "policy_rate": {
+      "value": 5.0,
+      "unit": "%",
+      "date": "2024",
+      "source": "SAMA",
+      "note": "SAMA suit la Fed pour maintenir l'ancrage du riyal. Le coût du crédit reste élevé pour les projets non pétroliers."
+    },
+    "unemployment": {
+      "value": 3.5,
+      "unit": "%",
+      "date": "2024",
+      "source": "GASTAT",
+      "note": "Le taux global est faible, mais le chômage des jeunes et des femmes reste supérieur. La saoudisation de l'emploi progresse."
+    },
+    "reserves": {
+      "value": 420,
+      "unit": "Mds $",
+      "date": "2024",
+      "source": "SAMA / FMI",
+      "note": "Les réserves et le fonds souverain forment un matelas confortable pour financer les déficits et les mégaprojets."
+    },
+    "rating": {
+      "value": "A+",
+      "agency": "S&P",
+      "date": "2024",
+      "source": "S&P Global Ratings",
+      "note": "La note est soutenue par la faible dette et les actifs du PIF, limitée par la dépendance pétrolière et la concentration du pouvoir."
+    },
+    "cds": {
+      "value": 60,
+      "unit": "pb",
+      "date": "2024",
+      "source": "CMA / marché",
+      "note": "Le marché price un risque faible à moyen terme, avec une prime liée au pétrole et aux tensions régionales."
+    },
+    "equity_index": {
+      "name": "Tadawul All Share",
+      "level": 12080,
+      "perf_1y": 0.8,
+      "date": "2024",
+      "source": "Saudi Exchange",
+      "note": "La Bourse est dominée par Aramco et les banques. Les mégaprojets attirent des capitaux, mais la rentabilité reste à prouver."
+    },
+    "currency": {
+      "code": "SAR",
+      "name": "Riyal saoudien",
+      "perf_1y": 0.0,
+      "date": "2024",
+      "source": "SAMA",
+      "note": "Le riyal est ancré au dollar (3,75 SAR/USD). Cette stabilité est un atout pour les investisseurs, mais importe la politique monétaire américaine."
+    }
+  },
+  "qualitative": {
+    "outlook": 65,
+    "currency_stability": 80,
+    "governance": 48,
+    "resilience": 62,
+    "business": 62,
+    "openness": 60
+  },
+  "strengths": [
+    "Dette publique faible et fonds souverain puissant.",
+    "Position centrale dans l'énergie mondiale et flux commerciaux.",
+    "Capacité d'investissement de l'État et réformes sociales rapides."
+  ],
+  "risks": [
+    "Dépendance persistante au prix du pétrole.",
+    "Concentration du pouvoir et risque de revirement réglementaire.",
+    "Coût des mégaprojets et exécution de Vision 2030."
+  ],
+  "opportunities": [
+    "Tourisme, divertissement et logistique non pétroliers.",
+    "Hydrogène vert, solaire et minéraux critiques.",
+    "Ouverture du capital et introduction en Bourse d'actifs publics."
+  ],
+  "quiz": {
+    "question": "Quel est l'objectif central de Vision 2030 ?",
+    "options": [
+      "Nationaliser Aramco",
+      "Réduire la dépendance au pétrole",
+      "Adopter l'euro",
+      "Fermer l'économie"
+    ],
+    "answer": 1,
+    "explanation": "Vision 2030 vise à diversifier les revenus, développer le secteur privé et le tourisme, et préparer une économie moins dépendante des hydrocarbures."
+  },
+  "order": 5
+}

@@ -1,0 +1,211 @@
+{
+  "id": "china",
+  "name": "Chine",
+  "official_name": "République populaire de Chine",
+  "iso3": "CHN",
+  "flag": "🇨🇳",
+  "region": "Asie de l'Est",
+  "group": "Émergent",
+  "group_key": "emerging",
+  "headline": "L'atelier du monde cherche un nouveau moteur.",
+  "summary": "En quarante ans, la Chine est passée d'une économie agraire à l'atelier du monde, grâce à l'ouverture de Deng Xiaoping et à l'adhésion à l'OMC. Le modèle repose sur l'investissement, le crédit et l'immobilier ; il doit maintenant basculer vers la consommation et la technologie sans perdre le contrôle politique.",
+  "history": [
+    {
+      "year": "1911",
+      "title": "Fin de l'Empire",
+      "text": "La dynastie Qing s'effondre. La République tente de construire un État moderne, mais le pays sombre dans les guerres civiles et l'occupation japonaise."
+    },
+    {
+      "year": "1949",
+      "title": "Fondation de la République populaire",
+      "text": "Mao Zedong proclame la RPC. Le Parti communiste organise l'économie par le plan, collectivise les terres et industrialise lourdement."
+    },
+    {
+      "year": "1978",
+      "title": "Réformes de Deng Xiaoping",
+      "text": "Ouverture des zones côtières, retour de l'initiative privée et investissements étrangers. La croissance s'envole, l'État garde le contrôle politique."
+    },
+    {
+      "year": "2001",
+      "title": "Entrée à l'OMC",
+      "text": "La Chine accède au marché mondial. Ses exportations explosent, elle devient la première usine du monde et accumule d'énormes réserves de change."
+    },
+    {
+      "year": "2008",
+      "title": "Plan de relance massif",
+      "text": "Face à la crise financière, Pékin lance un vaste programme d'infrastructures. La dette locale et l'immobilier prennent une place démesurée."
+    },
+    {
+      "year": "2021",
+      "title": "Régulation et crise immobilière",
+      "text": "Le pouvoir encadre les plateformes et la promotion immobilière. Les promoteurs surendettés s'effondrent, la confiance des ménages se fragilise."
+    },
+    {
+      "year": "2024",
+      "title": "Relance et bataille technologique",
+      "text": "Pékin baisse les taux et soutient le marché. La priorité est la souveraineté technologique, face aux restrictions américaines sur les puces."
+    }
+  ],
+  "institutions": {
+    "regime": "République socialiste à parti unique",
+    "executive": "Président et Comité permanent du Parti, primauté du politique sur l'administration",
+    "legislature": "Assemblée populaire nationale, rôle essentiellement consultatif",
+    "central_bank": "Banque populaire de Chine (PBoC), sous tutelle du Conseil des affaires d'État",
+    "currency": "Yuan renminbi (CNY), régime administré",
+    "law": "Droit civil codifié, forte discrétion administrative et contrôle politique",
+    "fact": "Le crédit est largement guidé par l'État : les banques publiques financent les priorités industrielles et locales."
+  },
+  "relations": {
+    "allies": [
+      {
+        "name": "Russie",
+        "note": "Partenariat sans alliance formelle, convergence anti-occidentale."
+      },
+      {
+        "name": "Pakistan",
+        "note": "Corridor économique et coopération stratégique."
+      },
+      {
+        "name": "Asie centrale",
+        "note": "Routes commerciales et accès aux ressources via les Nouvelles routes de la soie."
+      }
+    ],
+    "rivals": [
+      {
+        "name": "États-Unis",
+        "note": "Guerre technologique, taïwanaise et commerciale."
+      },
+      {
+        "name": "Inde",
+        "note": "Différends frontaliers et concurrence pour l'influence en Asie."
+      },
+      {
+        "name": "Japon",
+        "note": "Mémoire historique et tensions maritimes."
+      }
+    ],
+    "dependencies": [
+      {
+        "name": "Taïwan",
+        "note": "Semi-conducteurs avancés, point de rupture potentiel."
+      },
+      {
+        "name": "Australie / Brésil",
+        "note": "Minerai de fer, soja et matières premières."
+      },
+      {
+        "name": "Moyen-Orient",
+        "note": "Pétrole et gaz indispensables à l'industrie."
+      }
+    ]
+  },
+  "indicators": {
+    "gdp_growth": {
+      "value": 5.0,
+      "unit": "%",
+      "date": "2024",
+      "source": "Bureau national de la statistique / FMI",
+      "note": "La cible de 5 % est atteinte grâce aux exportations et aux investissements publics, mais la demande intérieure reste fragile."
+    },
+    "inflation": {
+      "value": 0.2,
+      "unit": "%",
+      "date": "2024",
+      "source": "Bureau national de la statistique",
+      "note": "La très faible inflation frôle la déflation : les ménages épargnent, les prix industriels baissent et la confiance manque."
+    },
+    "debt_gdp": {
+      "value": 88,
+      "unit": "%",
+      "date": "2024",
+      "source": "FMI, WEO",
+      "note": "La dette du gouvernement général reste contenue, mais la dette des collectivités locales et des véhicules financiers est bien plus élevée."
+    },
+    "policy_rate": {
+      "value": 3.1,
+      "unit": "%",
+      "date": "2024",
+      "source": "PBoC (LPR 1 an)",
+      "note": "La PBoC baisse progressivement ses taux, mais la transmission au crédit est freinée par le désendettement des ménages et des promoteurs."
+    },
+    "unemployment": {
+      "value": 5.1,
+      "unit": "%",
+      "date": "2024",
+      "source": "Bureau national de la statistique",
+      "note": "Le chômage urbain est stable, mais le chômage des jeunes est nettement plus élevé et la statistique reste discutée."
+    },
+    "reserves": {
+      "value": 3200,
+      "unit": "Mds $",
+      "date": "2024",
+      "source": "PBoC / FMI",
+      "note": "Les réserves les plus importantes du monde servent de garantie au yuan et de protection contre les chocs de capitaux."
+    },
+    "rating": {
+      "value": "A+",
+      "agency": "S&P",
+      "date": "2024",
+      "source": "S&P Global Ratings",
+      "note": "La note est solide, mais la dette cachée des collectivités locales et le contrôle des capitaux limitent la comparaison avec les pays développés."
+    },
+    "cds": {
+      "value": 75,
+      "unit": "pb",
+      "date": "2024",
+      "source": "CMA / marché",
+      "note": "Le marché price un risque modéré. Les CDS chinois restent bien plus bas que ceux des grands émergents endettés en dollars."
+    },
+    "equity_index": {
+      "name": "Shanghai Composite",
+      "level": 3352,
+      "perf_1y": 12.7,
+      "date": "2024",
+      "source": "Shanghai Stock Exchange",
+      "note": "Le rebond de fin d'année est lié aux annonces de relance. La gouvernance et la faible distribution de dividendes limitent l'attrait."
+    },
+    "currency": {
+      "code": "CNY",
+      "name": "Yuan",
+      "perf_1y": -2.8,
+      "date": "2024",
+      "source": "PBoC / BRI",
+      "note": "Le yuan est géré, pas librement flottant. Pékin contrôle les flux de capitaux pour éviter une dépréciation désordonnée."
+    }
+  },
+  "qualitative": {
+    "outlook": 60,
+    "currency_stability": 62,
+    "governance": 55,
+    "resilience": 70,
+    "business": 52,
+    "openness": 55
+  },
+  "strengths": [
+    "Base industrielle, échelle et écosystème technologique en montée.",
+    "Réserves de change et contrôle des capitaux protecteurs.",
+    "Capacité de l'État à investir et à coordonner les priorités."
+  ],
+  "risks": [
+    "Crise immobilière et désendettement des collectivités locales.",
+    "Tensions technologiques et commerciales avec les États-Unis.",
+    "Vieillissement rapide et faible protection sociale."
+  ],
+  "opportunities": [
+    "Consommation intérieure et classe moyenne encore sous-exploitées.",
+    "Transition énergétique, véhicules électriques et batteries.",
+    "Ouverture progressive des marchés de capitaux."
+  ],
+  "quiz": {
+    "question": "Quel tournant a ouvert la Chine à l'économie de marché ?",
+    "options": [
+      "La Révolution culturelle",
+      "Les réformes de Deng Xiaoping en 1978",
+      "L'entrée à l'OMC en 2001",
+      "La crise de 2008"
+    ],
+    "answer": 1,
+    "explanation": "Les réformes de 1978 créent les zones économiques spéciales et réintroduisent l'initiative privée. L'OMC accélérera ensuite les exportations, mais l'ouverture commence en 1978."
+  },
+  "order": 4
+}

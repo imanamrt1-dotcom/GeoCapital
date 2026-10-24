@@ -1,0 +1,207 @@
+{
+  "id": "uae",
+  "name": "Émirats arabes unis",
+  "official_name": "Émirats arabes unis",
+  "iso3": "ARE",
+  "flag": "🇦🇪",
+  "region": "Moyen-Orient",
+  "group": "Golfe",
+  "group_key": "gulf",
+  "headline": "Le hub qui transforme le pétrole en plateforme mondiale.",
+  "summary": "Fédération de sept émirats créée en 1971, le pays a utilisé la rente d'Abou Dhabi pour devenir une plateforme commerciale, financière et logistique. Dubaï attire les capitaux et les talents du monde entier ; le risque est moins la solvabilité que la dépendance à un modèle ouvert et à un environnement régional instable.",
+  "history": [
+    {
+      "year": "1966",
+      "title": "Pétrole à Abou Dhabi",
+      "text": "La découverte d'importants gisements transforme un ensemble de principautés marchandes en futur État rentier."
+    },
+    {
+      "year": "1971",
+      "title": "Fondation de la Fédération",
+      "text": "Six émirats s'unissent, rejoints par Ras el-Khaïmah. Abou Dhabi apporte le pétrole, Dubaï le commerce, et le pays se dote d'une constitution fédérale."
+    },
+    {
+      "year": "1985",
+      "title": "Jebel Ali et la logistique",
+      "text": "Le port et la zone franche de Jebel Ali créent un modèle de réexportation. Dubaï devient un carrefour entre Asie, Afrique et Europe."
+    },
+    {
+      "year": "2004",
+      "title": "DIFC et finance internationale",
+      "text": "Le Dubai International Financial Centre adopte un droit anglais et des tribunaux propres. Les capitaux internationaux disposent d'une enclave juridique familière."
+    },
+    {
+      "year": "2009",
+      "title": "Crise de la dette de Dubaï",
+      "text": "Dubai World demande un moratoire. Abou Dhabi aide à la restructuration : la solidarité fédérale sauve la réputation du hub."
+    },
+    {
+      "year": "2020",
+      "title": "Accords d'Abraham",
+      "text": "Les Émirats normalisent leurs relations avec Israël. Le pays gagne un partenaire technologique et renforce son image de puissance pragmatique."
+    },
+    {
+      "year": "2021",
+      "title": "Cap sur les 50 prochaines années",
+      "text": "Le pays lance une stratégie de diversification : énergies propres, intelligence artificielle, industrie et visas de long terme pour attirer les talents."
+    }
+  ],
+  "institutions": {
+    "regime": "Fédération de monarchies, président issu d'Abou Dhabi",
+    "executive": "Conseil suprême des dirigeants, président et Premier ministre",
+    "legislature": "Conseil national fédéral, partiellement élu, rôle consultatif",
+    "central_bank": "Central Bank of the UAE, ancrage au dollar",
+    "currency": "Dirham (AED), arrimé au dollar",
+    "law": "Droit civil et common law dans les zones franches, forte autonomie des émirats",
+    "fact": "Les zones franches et les juridictions spécialisées permettent d'attirer des capitaux sans libéraliser tout le pays."
+  },
+  "relations": {
+    "allies": [
+      {
+        "name": "Arabie saoudite",
+        "note": "Voisin stratégique et partenaire du CCG, mais concurrence économique."
+      },
+      {
+        "name": "États-Unis",
+        "note": "Sécurité, technologies et investissements."
+      },
+      {
+        "name": "Israël",
+        "note": "Normalisation de 2020, coopération technologique et commerciale."
+      }
+    ],
+    "rivals": [
+      {
+        "name": "Iran",
+        "note": "Différend territorial sur les îles et rivalité régionale."
+      },
+      {
+        "name": "Qatar",
+        "note": "Concurrence de hub et séquelles du blocus de 2017."
+      }
+    ],
+    "dependencies": [
+      {
+        "name": "Hydrocarbures",
+        "note": "Abou Dhabi reste la principale source de revenus fédéraux."
+      },
+      {
+        "name": "Main-d'œuvre étrangère",
+        "note": "Plus de 80 % de la population est expatriée."
+      },
+      {
+        "name": "Commerce mondial",
+        "note": "Le modèle de réexportation dépend de la stabilité des routes maritimes."
+      }
+    ]
+  },
+  "indicators": {
+    "gdp_growth": {
+      "value": 4.0,
+      "unit": "%",
+      "date": "2024",
+      "source": "FMI, WEO",
+      "note": "La croissance non pétrolière est robuste : tourisme, finance, logistique et immobilier compensent la modération du brut."
+    },
+    "inflation": {
+      "value": 2.0,
+      "unit": "%",
+      "date": "2024",
+      "source": "FMI / autorités émiraties",
+      "note": "L'inflation reste maîtrisée grâce au dirham ancré et aux politiques de subvention, mais l'immobilier de Dubaï peut créer des tensions."
+    },
+    "debt_gdp": {
+      "value": 30,
+      "unit": "%",
+      "date": "2024",
+      "source": "FMI, WEO",
+      "note": "La dette fédérale est faible et les actifs souverains considérables. La soutenabilité ne fait pas débat à court terme."
+    },
+    "policy_rate": {
+      "value": 4.4,
+      "unit": "%",
+      "date": "2024",
+      "source": "CBUAE",
+      "note": "La banque centrale suit la Fed pour défendre l'ancrage. Les taux élevés renchérissent le crédit immobilier et les projets."
+    },
+    "unemployment": {
+      "value": 2.7,
+      "unit": "%",
+      "date": "2024",
+      "source": "FMI / autorités",
+      "note": "Le chômage officiel est très faible, mais il ne mesure pas la situation des travailleurs migrants peu qualifiés."
+    },
+    "reserves": {
+      "value": 240,
+      "unit": "Mds $",
+      "date": "2024",
+      "source": "CBUAE / FMI",
+      "note": "Les réserves et les fonds souverains d'Abou Dhabi et de Dubaï forment un amortisseur très important."
+    },
+    "rating": {
+      "value": "AA",
+      "agency": "S&P",
+      "date": "2024",
+      "source": "S&P Global Ratings",
+      "note": "La note élevée reflète la richesse par habitant, la faible dette et la solidité des fonds souverains."
+    },
+    "cds": {
+      "value": 45,
+      "unit": "pb",
+      "date": "2024",
+      "source": "CMA / marché",
+      "note": "Le marché price un risque très faible, proche de certains émetteurs développés."
+    },
+    "equity_index": {
+      "name": "DFM General",
+      "level": 5140,
+      "perf_1y": 27.0,
+      "date": "2024",
+      "source": "Dubai Financial Market",
+      "note": "La Bourse profite de l'immobilier, des banques et des introductions en Bourse. La liquidité reste concentrée sur quelques valeurs."
+    },
+    "currency": {
+      "code": "AED",
+      "name": "Dirham",
+      "perf_1y": 0.0,
+      "date": "2024",
+      "source": "CBUAE",
+      "note": "L'ancrage au dollar (3,6725 AED/USD) offre une grande stabilité nominale, au prix d'une politique monétaire importée."
+    }
+  },
+  "qualitative": {
+    "outlook": 80,
+    "currency_stability": 88,
+    "governance": 55,
+    "resilience": 65,
+    "business": 78,
+    "openness": 85
+  },
+  "strengths": [
+    "Diversification avancée et climat des affaires très favorable.",
+    "Infrastructures logistiques et financières de rang mondial.",
+    "Réserves et fonds souverains qui couvrent largement la dette."
+  ],
+  "risks": [
+    "Dépendance à la main-d'œuvre étrangère et au commerce mondial.",
+    "Concurrence régionale et exposition aux tensions du Golfe.",
+    "Marché immobilier cyclique et opacité de certaines structures."
+  ],
+  "opportunities": [
+    "Finance islamique, gestion d'actifs et fintech.",
+    "Énergies renouvelables, hydrogène et intelligence artificielle.",
+    "Zone de libre-échange et réexportation vers l'Afrique et l'Asie."
+  ],
+  "quiz": {
+    "question": "Combien d'émirats composent la fédération des Émirats arabes unis ?",
+    "options": [
+      "Cinq",
+      "Six",
+      "Sept",
+      "Neuf"
+    ],
+    "answer": 2,
+    "explanation": "La fédération est créée en 1971 par six émirats ; Ras el-Khaïmah rejoint l'ensemble en 1972, portant le total à sept."
+  },
+  "order": 6
+}

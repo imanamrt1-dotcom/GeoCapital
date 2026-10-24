@@ -1,0 +1,203 @@
+{
+  "id": "morocco",
+  "name": "Maroc",
+  "official_name": "Royaume du Maroc",
+  "iso3": "MAR",
+  "flag": "🇲🇦",
+  "region": "Afrique du Nord",
+  "group": "Frontière",
+  "group_key": "frontier",
+  "headline": "La stabilité politique comme avantage concurrentiel.",
+  "summary": "Le Maroc a transformé une monarchie ancienne en plateforme industrielle tournée vers l'Europe et l'Afrique. Ses atouts sont la stabilité, les infrastructures et les énergies renouvelables ; ses contraintes restent le chômage des jeunes, la dépendance à l'importation d'énergie et le conflit du Sahara occidental.",
+  "history": [
+    {
+      "year": "1912",
+      "title": "Protectorat français",
+      "text": "Le traité de Fès place une grande partie du Maroc sous protectorat français, avec une zone espagnole au nord. L'administration moderne et les infrastructures se développent."
+    },
+    {
+      "year": "1956",
+      "title": "Indépendance",
+      "text": "Le sultan Mohammed V devient roi. Le Maroc conserve une monarchie forte, garante de l'unité nationale et de l'équilibre entre tribus et villes."
+    },
+    {
+      "year": "1975",
+      "title": "Marche verte",
+      "text": "350 000 Marocains traversent la frontière du Sahara occidental. Le territoire devient une cause nationale, source de cohésion mais aussi de conflit durable avec l'Algérie."
+    },
+    {
+      "year": "1999",
+      "title": "Règne de Mohammed VI",
+      "text": "Le nouveau roi modernise l'économie, lance les grands chantiers et ouvre progressivement la société, tout en gardant la primauté du palais."
+    },
+    {
+      "year": "2011",
+      "title": "Réforme constitutionnelle",
+      "text": "Dans le sillage du Printemps arabe, une nouvelle Constitution renforce le Parlement et la justice, sans remettre en cause le rôle central du roi."
+    },
+    {
+      "year": "2022",
+      "title": "Demi-finale mondiale",
+      "text": "Les Lions de l'Atlas atteignent les demi-finales du Mondial au Qatar. L'image du Maroc et son soft power changent d'échelle."
+    },
+    {
+      "year": "2025-2030",
+      "title": "Année du football et horizon 2030",
+      "text": "La CAN 2025 et la Coupe du monde 2030, coorganisée avec l'Espagne et le Portugal, accélèrent les investissements dans les transports et l'énergie."
+    }
+  ],
+  "institutions": {
+    "regime": "Monarchie constitutionnelle",
+    "executive": "Roi chef de l'État et chef religieux, Premier ministre issu du Parlement",
+    "legislature": "Parlement bicaméral : Chambre des représentants et Chambre des conseillers",
+    "central_bank": "Bank Al-Maghrib, indépendante dans la conduite de la politique monétaire",
+    "currency": "Dirham marocain (MAD), régime de flottement administré",
+    "law": "Droit civil inspiré du droit français, droit musulman pour le statut personnel",
+    "fact": "Le Maroc est le premier pays africain à avoir signé un accord de libre-échange complet avec les États-Unis."
+  },
+  "relations": {
+    "allies": [
+      {
+        "name": "France",
+        "note": "Premier partenaire économique et culturel, malgré des tensions ponctuelles."
+      },
+      {
+        "name": "Espagne",
+        "note": "Coopération migratoire, énergétique et économique."
+      },
+      {
+        "name": "États-Unis",
+        "note": "Accord de libre-échange et reconnaissance du plan d'autonomie du Sahara."
+      }
+    ],
+    "rivals": [
+      {
+        "name": "Algérie",
+        "note": "Frontières fermées, différend du Sahara et course à l'influence régionale."
+      }
+    ],
+    "dependencies": [
+      {
+        "name": "Union européenne",
+        "note": "Principal débouché pour l'automobile, l'agroalimentaire et le textile."
+      },
+      {
+        "name": "Énergie importée",
+        "note": "Le pays importe l'essentiel de ses hydrocarbures."
+      },
+      {
+        "name": "Tourisme et transferts",
+        "note": "Les devises des migrants et le tourisme soutiennent la balance des paiements."
+      }
+    ]
+  },
+  "indicators": {
+    "gdp_growth": {
+      "value": 3.2,
+      "unit": "%",
+      "date": "2024",
+      "source": "FMI, WEO",
+      "note": "La croissance est soutenue par l'industrie, le tourisme et les investissements liés au football, mais reste vulnérable à la sécheresse."
+    },
+    "inflation": {
+      "value": 1.7,
+      "unit": "%",
+      "date": "2024",
+      "source": "Bank Al-Maghrib",
+      "note": "L'inflation est revenue dans la zone de confort. La baisse des prix alimentaires et l'ancrage du dirham ont aidé."
+    },
+    "debt_gdp": {
+      "value": 69,
+      "unit": "%",
+      "date": "2024",
+      "source": "FMI, WEO",
+      "note": "La dette reste gérable, mais le déficit et les besoins de financement limitent la marge budgétaire."
+    },
+    "policy_rate": {
+      "value": 2.25,
+      "unit": "%",
+      "date": "déc. 2024",
+      "source": "Bank Al-Maghrib",
+      "note": "La banque centrale a baissé son taux pour soutenir l'investissement. Le taux réel reste positif mais modéré."
+    },
+    "unemployment": {
+      "value": 13.3,
+      "unit": "%",
+      "date": "2024",
+      "source": "HCP",
+      "note": "Le chômage est élevé, surtout chez les jeunes et les diplômés. C'est le principal point faible social du modèle marocain."
+    },
+    "reserves": {
+      "value": 36,
+      "unit": "Mds $",
+      "date": "2024",
+      "source": "Bank Al-Maghrib / FMI",
+      "note": "Les réserves couvrent environ cinq mois d'importations. C'est correct, mais inférieur aux standards des pays du Golfe."
+    },
+    "rating": {
+      "value": "BB+",
+      "agency": "S&P",
+      "date": "2024",
+      "source": "S&P Global Ratings",
+      "note": "La note est passée dans la catégorie spéculative haute. La trajectoire réformiste et l'ancrage européen soutiennent la perspective."
+    },
+    "cds": {
+      "value": 100,
+      "unit": "pb",
+      "date": "2024",
+      "source": "CMA / marché",
+      "note": "Le marché price un risque modéré. Le Maroc se finance plus cher que l'Espagne, mais moins que les frontières africaines plus fragiles."
+    },
+    "equity_index": {
+      "name": "MASI",
+      "level": 14300,
+      "perf_1y": 20.9,
+      "date": "2024",
+      "source": "Bourse de Casablanca",
+      "note": "L'indice profite des banques, de l'immobilier et de l'engouement pour les valeurs liées au Mondial."
+    },
+    "currency": {
+      "code": "MAD",
+      "name": "Dirham marocain",
+      "perf_1y": 0.6,
+      "date": "2024",
+      "source": "Bank Al-Maghrib",
+      "note": "Le dirham est géré dans une bande de fluctuation. La stabilité nominale est un atout pour les investisseurs européens."
+    }
+  },
+  "qualitative": {
+    "outlook": 75,
+    "currency_stability": 65,
+    "governance": 53,
+    "resilience": 60,
+    "business": 60,
+    "openness": 72
+  },
+  "strengths": [
+    "Stabilité politique et continuité monarchique.",
+    "Position de hub industriel et logistique entre l'Europe et l'Afrique.",
+    "Investissements massifs dans les énergies renouvelables."
+  ],
+  "risks": [
+    "Chômage élevé des jeunes et inégalités territoriales.",
+    "Dépendance aux importations d'énergie et aux pluies.",
+    "Conflit du Sahara et relations bloquées avec l'Algérie."
+  ],
+  "opportunities": [
+    "Automobile électrique et batteries grâce aux accords avec l'Europe.",
+    "Hydrogène vert et interconnexions électriques.",
+    "Coupe du monde 2030 et modernisation des infrastructures."
+  ],
+  "quiz": {
+    "question": "Pourquoi la Marche verte de 1975 est-elle structurante pour le Maroc ?",
+    "options": [
+      "Elle met fin au protectorat",
+      "Elle revendique le Sahara occidental",
+      "Elle crée l'euro",
+      "Elle ouvre le canal de Suez"
+    ],
+    "answer": 1,
+    "explanation": "La Marche verte mobilise la population pour revendiquer le Sahara occidental. Le territoire reste au cœur de la politique étrangère et du conflit avec l'Algérie."
+  },
+  "order": 7
+}

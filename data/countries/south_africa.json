@@ -1,0 +1,207 @@
+{
+  "id": "south_africa",
+  "name": "Afrique du Sud",
+  "official_name": "République d'Afrique du Sud",
+  "iso3": "ZAF",
+  "flag": "🇿🇦",
+  "region": "Afrique australe",
+  "group": "Émergent",
+  "group_key": "emerging",
+  "headline": "Le potentiel d'un continent, les fractures de son histoire.",
+  "summary": "L'Afrique du Sud est la grande économie la plus inégalitaire du monde. L'apartheid a laissé une structure spatiale et éducative qui pèse encore sur la productivité. Le pays dispose pourtant de minerais stratégiques, d'institutions financières solides et d'une société civile vigoureuse.",
+  "history": [
+    {
+      "year": "1910",
+      "title": "Union sud-africaine",
+      "text": "Les colonies britanniques et boers s'unissent. Le pouvoir politique est réservé aux Blancs, tandis que les mines d'or et de diamants financent l'industrialisation."
+    },
+    {
+      "year": "1948",
+      "title": "Institution de l'apartheid",
+      "text": "Le Parti national systématise la ségrégation raciale. La majorité noire est privée de droits politiques, de terres et d'éducation de qualité."
+    },
+    {
+      "year": "1960",
+      "title": "Massacre de Sharpeville",
+      "text": "La police tire sur des manifestants contre les laissez-passer. Le massacre internationalise la cause anti-apartheid et radicalise la lutte."
+    },
+    {
+      "year": "1994",
+      "title": "Premières élections démocratiques",
+      "text": "Nelson Mandela devient président. La transition négociée évite la guerre civile, mais ne redistribue pas radicalement la richesse."
+    },
+    {
+      "year": "1996",
+      "title": "Constitution de 1996",
+      "text": "Une des constitutions les plus protectrices du monde garantit les droits, l'indépendance de la justice et les institutions de contrôle."
+    },
+    {
+      "year": "2010",
+      "title": "Coupe du monde de football",
+      "text": "Le pays montre sa capacité logistique et son soft power. Les infrastructures progressent, mais les inégalités et le chômage restent massifs."
+    },
+    {
+      "year": "2024",
+      "title": "Gouvernement d'unité nationale",
+      "text": "L'ANC perd sa majorité. Une coalition avec l'opposition ouvre une période d'instabilité politique, mais aussi d'espoir de réformes."
+    }
+  ],
+  "institutions": {
+    "regime": "République parlementaire et fédérale",
+    "executive": "Président élu par le Parlement, gouvernement de coalition depuis 2024",
+    "legislature": "Parlement bicaméral : Assemblée nationale et Conseil national des provinces",
+    "central_bank": "South African Reserve Bank (SARB), indépendante et ciblant l'inflation",
+    "currency": "Rand (ZAR), monnaie flottante",
+    "law": "Hybridation de common law, de droit romano-hollandais et de droit constitutionnel",
+    "fact": "La Constitution de 1996 est souvent citée comme l'une des plus protectrices des droits sociaux au monde."
+  },
+  "relations": {
+    "allies": [
+      {
+        "name": "Brésil / Inde / Chine",
+        "note": "Coopération au sein des BRICS et des grandes économies émergentes."
+      },
+      {
+        "name": "Union africaine",
+        "note": "Rôle moteur dans la diplomatie continentale."
+      },
+      {
+        "name": "Union européenne",
+        "note": "Principal partenaire commercial et source d'investissements."
+      }
+    ],
+    "rivals": [
+      {
+        "name": "Nigeria",
+        "note": "Concurrence pour le leadership africain et les investissements."
+      },
+      {
+        "name": "États-Unis",
+        "note": "Tensions diplomatiques récentes sur les politiques étrangères et commerciales."
+      }
+    ],
+    "dependencies": [
+      {
+        "name": "Chine",
+        "note": "Premier client pour les minerais et premier fournisseur de biens."
+      },
+      {
+        "name": "Platine / or / charbon",
+        "note": "Les exportations de matières premières restent centrales."
+      },
+      {
+        "name": "Électricité",
+        "note": "La crise d'Eskom et les coupures pèsent sur l'activité."
+      }
+    ]
+  },
+  "indicators": {
+    "gdp_growth": {
+      "value": 0.6,
+      "unit": "%",
+      "date": "2024",
+      "source": "Statistics South Africa / FMI",
+      "note": "La croissance est quasi nulle : les coupures d'électricité, la logistique ferroviaire et la faible confiance pèsent sur l'investissement."
+    },
+    "inflation": {
+      "value": 4.4,
+      "unit": "%",
+      "date": "2024",
+      "source": "Statistics South Africa",
+      "note": "L'inflation est revenue dans la cible de la SARB (3-6 %), ce qui a permis de commencer à baisser les taux."
+    },
+    "debt_gdp": {
+      "value": 75,
+      "unit": "%",
+      "date": "2024",
+      "source": "FMI, WEO",
+      "note": "La dette monte sous l'effet des déficits et du sauvetage d'Eskom. Les charges d'intérêts absorbent une part croissante du budget."
+    },
+    "policy_rate": {
+      "value": 7.75,
+      "unit": "%",
+      "date": "2024",
+      "source": "SARB",
+      "note": "Le taux directeur reste élevé pour ancrer les anticipations. Le crédit est cher pour les ménages et les PME."
+    },
+    "unemployment": {
+      "value": 32.1,
+      "unit": "%",
+      "date": "2024",
+      "source": "Statistics South Africa",
+      "note": "Le chômage dépasse 30 %, avec une ampleur extrême chez les jeunes. C'est le principal risque social et politique."
+    },
+    "reserves": {
+      "value": 62,
+      "unit": "Mds $",
+      "date": "2024",
+      "source": "SARB / FMI",
+      "note": "Les réserves couvrent environ cinq mois d'importations. Elles protègent le rand, mais ne suffisent pas à absorber un choc durable."
+    },
+    "rating": {
+      "value": "BB-",
+      "agency": "S&P",
+      "date": "2024",
+      "source": "S&P Global Ratings",
+      "note": "La note est en catégorie spéculative. La qualité des institutions et la dette modérée limitent la prime, mais la croissance faible pèse."
+    },
+    "cds": {
+      "value": 180,
+      "unit": "pb",
+      "date": "2024",
+      "source": "CMA / marché",
+      "note": "Le marché price un risque supérieur au Maroc, reflétant la faible croissance, le chômage et les tensions budgétaires."
+    },
+    "equity_index": {
+      "name": "JSE All Share",
+      "level": 84200,
+      "perf_1y": 13.4,
+      "date": "2024",
+      "source": "Johannesburg Stock Exchange",
+      "note": "L'indice profite de l'or, des mines et des valeurs financières. La Bourse est plus dynamique que l'économie réelle."
+    },
+    "currency": {
+      "code": "ZAR",
+      "name": "Rand",
+      "perf_1y": -3.5,
+      "date": "2024",
+      "source": "SARB / BRI",
+      "note": "Le rand est liquide mais volatile. Il sert de proxy du risque émergent et reste sensible aux prix des matières premières."
+    }
+  },
+  "qualitative": {
+    "outlook": 50,
+    "currency_stability": 50,
+    "governance": 58,
+    "resilience": 58,
+    "business": 48,
+    "openness": 65
+  },
+  "strengths": [
+    "Institutions juridiques et financières solides.",
+    "Richesse en minerais stratégiques et énergie renouvelable.",
+    "Société civile et presse parmi les plus libres d'Afrique."
+  ],
+  "risks": [
+    "Chômage massif et inégalités héritées de l'apartheid.",
+    "Crise énergétique et logistique qui bride la production.",
+    "Coalition gouvernementale fragile et risque budgétaire."
+  ],
+  "opportunities": [
+    "Minerais de la transition énergétique (platine, manganèse, vanadium).",
+    "Solaire et hydrogen vert.",
+    "Hub financier et logistique pour l'Afrique australe."
+  ],
+  "quiz": {
+    "question": "Quel événement marque la fin de l'apartheid politique en Afrique du Sud ?",
+    "options": [
+      "Le massacre de Sharpeville",
+      "La Coupe du monde 2010",
+      "Les élections de 1994",
+      "La création des BRICS"
+    ],
+    "answer": 2,
+    "explanation": "Les premières élections multiraciales de 1994 portent Nelson Mandela au pouvoir. L'apartheid est aboli, mais ses conséquences économiques et spatiales persistent."
+  },
+  "order": 8
+}

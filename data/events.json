@@ -1,0 +1,274 @@
+{
+  "events": [
+    {
+      "id": "usa-fed-cut-2024",
+      "country": "usa",
+      "date": "18 septembre 2024",
+      "category": "Politique monétaire",
+      "title": "La Fed abaisse ses taux de 50 points de base",
+      "source": "Federal Reserve",
+      "summary": "Première baisse depuis 2020 : la Fed choisit un geste ample pour éviter que le marché du travail ne se dégrade trop vite, alors que l'inflation se rapproche de 2 %.",
+      "chain": [
+        {"label": "Événement", "text": "La Réserve fédérale ramène sa fourchette cible de 5,25-5,50 % à 4,75-5,00 %. C'est une baisse de 50 pb, plus forte que la traditionnelle baisse de 25 pb."},
+        {"label": "Conséquence économique", "text": "Le coût du crédit baisse pour les ménages et les entreprises. L'immobilier, l'investissement et les refinancements deviennent moins chers, ce qui soutient la demande."},
+        {"label": "Conséquence financière", "text": "Les taux longs baissent, le dollar s'affaiblit et les actions américaines montent. Les valorisations des valeurs de croissance profitent de la baisse du taux d'actualisation."},
+        {"label": "Gagnants / perdants", "text": "Gagnants : emprunteurs, actions, pays émergents endettés en dollars. Perdants : épargnants en cash, banques dont la marge se comprime, vendeurs de dollars."}
+      ],
+      "winners": ["Marchés actions", "Émergents endettés en dollars", "Immobilier"],
+      "losers": ["Épargne liquide", "Marge des banques", "Dollar"],
+      "history": {
+        "year": "2001",
+        "title": "La Fed baisse, mais la récession arrive",
+        "text": "En 2001, la Fed a fortement réduit ses taux face au ralentissement. Cela n'a pas empêché les actions de baisser : le marché anticipe toujours l'économie avant la banque centrale."
+      },
+      "concepts": [
+        {"term": "Taux directeur", "definition": "Taux de référence fixé par la banque centrale, qui influence le coût du crédit dans toute l'économie."},
+        {"term": "Taux d'actualisation", "definition": "Taux utilisé pour ramener des flux futurs à leur valeur d'aujourd'hui. Plus il baisse, plus les actifs lointains valent cher."},
+        {"term": "Assouplissement monétaire", "definition": "Baisse des taux ou achats d'actifs destinés à soutenir l'activité."}
+      ]
+    },
+    {
+      "id": "china-stimulus-2024",
+      "country": "china",
+      "date": "24 septembre 2024",
+      "category": "Relance",
+      "title": "Pékin dévoile un paquet de relance",
+      "source": "Banque populaire de Chine",
+      "summary": "Baisse des taux, soutien au crédit et mesures pour l'immobilier : la Chine tente de relancer une demande intérieure affaiblie par la crise des promoteurs.",
+      "chain": [
+        {"label": "Événement", "text": "La PBoC réduit plusieurs taux directeurs et assouplit les conditions de crédit. Des mesures soutiennent le marché immobilier et les marchés actions."},
+        {"label": "Conséquence économique", "text": "Les promoteurs et les collectivités locales respirent, mais les ménages restent prudents. La transmission du crédit est freinée par le désendettement."},
+        {"label": "Conséquence financière", "text": "Le Shanghai Composite connaît son meilleur rebond en une décennie. Le yuan reste contraint et les investisseurs étrangers reviennent prudemment."},
+        {"label": "Gagnants / perdants", "text": "Gagnants : promoteurs, banques, valeurs cycliques chinoises, matières premières. Perdants : épargnants, vendeurs à découvert, importateurs de matières premières."}
+      ],
+      "winners": ["Promoteurs immobiliers", "Matériaux", "Bourse chinoise"],
+      "losers": ["Épargnants", "Importateurs de matières premières", "Positionnement baissier"],
+      "history": {
+        "year": "2008-2009",
+        "title": "Le plan de relance qui a tout changé",
+        "text": "Face à la crise mondiale, Pékin avait lancé un plan massif d'infrastructures. La croissance est revenue vite, mais la dette locale et la bulle immobilière ont été les effets secondaires."
+      },
+      "concepts": [
+        {"term": "Multiplicateur budgétaire", "definition": "Effet d'une dépense publique sur l'activité : 1 euro dépensé peut générer plus d'un euro de PIB."},
+        {"term": "Désendettement", "definition": "Réduction de la dette par les ménages, les entreprises ou l'État, souvent au prix d'une baisse de la demande."},
+        {"term": "Déflation", "definition": "Baisse générale et durable des prix, qui pousse les agents à reporter leurs achats et alourdit les dettes."}
+      ]
+    },
+    {
+      "id": "france-spread-2024",
+      "country": "france",
+      "date": "juin 2024",
+      "category": "Risque politique",
+      "title": "Le spread France-Allemagne s'écarte après la dissolution",
+      "source": "Marchés obligataires",
+      "summary": "L'annonce d'élections législatives anticipées fait grimper la prime de risque française. Les investisseurs exigent un rendement plus élevé pour prêter à Paris.",
+      "chain": [
+        {"label": "Événement", "text": "Le président dissout l'Assemblée nationale après les européennes. Aucune majorité claire ne se dessine, ce qui rend le budget et les réformes incertains."},
+        {"label": "Conséquence économique", "text": "Les entreprises retardent leurs décisions d'investissement. La trajectoire de déficit devient moins crédible, alors que la dette est déjà supérieure à 110 % du PIB."},
+        {"label": "Conséquence financière", "text": "Le taux de l'OAT française monte et le spread face au Bund allemand s'élargit. Les banques françaises et les valeurs domestiques sous-performent."},
+        {"label": "Gagnants / perdants", "text": "Gagnants : Bunds allemands, investisseurs obligataires opportunistes. Perdants : contribuables français, banques, entreprises dépendantes du marché intérieur."}
+      ],
+      "winners": ["Obligations allemandes", "Investisseurs contrariants"],
+      "losers": ["Banques françaises", "Consommation domestique", "Budget de l'État"],
+      "history": {
+        "year": "2011-2012",
+        "title": "Quand la zone euro a failli éclater",
+        "text": "La crise des dettes souveraines a montré qu'un pays de la zone euro peut perdre la confiance des marchés sans contrôler sa monnaie. Le « spread » était devenu le thermomètre de la survie de l'euro."
+      },
+      "concepts": [
+        {"term": "Spread", "definition": "Écart de rendement entre deux obligations de même maturité. Il mesure la prime de risque que le marché exige."},
+        {"term": "OAT", "definition": "Obligation assimilable du Trésor, titre de dette de l'État français."},
+        {"term": "Prime de risque politique", "definition": "Surcroît de rendement exigé quand l'incertitude politique menace la trajectoire budgétaire."}
+      ]
+    },
+    {
+      "id": "japan-boj-2024",
+      "country": "japan",
+      "date": "mars-août 2024",
+      "category": "Politique monétaire",
+      "title": "La BOJ normalise, le carry trade déraille",
+      "source": "Bank of Japan",
+      "summary": "Le Japon sort des taux négatifs, puis relève son taux. Le yen se renforce brutalement et provoque un débouclage mondial du carry trade.",
+      "chain": [
+        {"label": "Événement", "text": "La Bank of Japan met fin à huit ans de taux négatifs en mars, puis relève son taux en juillet. Elle réduit aussi ses achats d'obligations."},
+        {"label": "Conséquence économique", "text": "Le coût du crédit augmente marginalement, mais le yen s'apprécie. Les exportateurs perdent en compétitivité et les ménages importent moins cher."},
+        {"label": "Conséquence financière", "text": "Les investisseurs qui empruntaient en yens pour acheter des actifs à haut rendement doivent solder leurs positions. Les marchés actions mondiaux chutent début août."},
+        {"label": "Gagnants / perdants", "text": "Gagnants : banques japonaises, yen, importateurs. Perdants : exportateurs, hedge funds en carry trade, actifs risqués surévalués."}
+      ],
+      "winners": ["Banques japonaises", "Yen", "Importateurs"],
+      "losers": ["Exportateurs japonais", "Fonds carry trade", "Actions technologiques"],
+      "history": {
+        "year": "1989-1990",
+        "title": "Le retour de bâton de la bulle",
+        "text": "Le Japon avait déjà connu un choc monétaire majeur lorsque la BOJ a durci sa politique pour casser la bulle. Les actions et l'immobilier ont mis des décennies à s'en remettre."
+      },
+      "concepts": [
+        {"term": "Carry trade", "definition": "Emprunter dans une devise à faible taux pour investir dans un actif à rendement plus élevé. Très rentable tant que la devise de financement reste faible."},
+        {"term": "Taux négatif", "definition": "Taux directeur sous zéro : les banques paient pour déposer leurs liquidités à la banque centrale."},
+        {"term": "Normalisation", "definition": "Retour progressif d'une banque centrale vers des taux et des bilans plus conventionnels."}
+      ]
+    },
+    {
+      "id": "saudi-oil-cuts-2024",
+      "country": "saudi",
+      "date": "2024",
+      "category": "Énergie",
+      "title": "Ryad prolonge ses coupes de production pétrolière",
+      "source": "OPEP+ / ministère de l'Énergie",
+      "summary": "Pour soutenir le prix du baril, l'Arabie saoudite maintient une production réduite. Elle protège ses recettes unitaires mais sacrifie du volume et de la croissance.",
+      "chain": [
+        {"label": "Événement", "text": "Ryad et ses alliés prolongent les réductions volontaires de production. L'objectif est d'éviter un excès d'offre qui ferait chuter les prix."},
+        {"label": "Conséquence économique", "text": "Les recettes pétrolières baissent en volume, le PIB se contracte et le déficit budgétaire se creuse. Les projets de Vision 2030 doivent être financés par la dette ou le PIF."},
+        {"label": "Conséquence financière", "text": "Les prix du pétrole se stabilisent, mais la Bourse et les banques saoudiennes dépendent des dépenses publiques. Les CDS restent bas grâce aux réserves."},
+        {"label": "Gagnants / perdants", "text": "Gagnants : producteurs à coût élevé, importateurs de pétrole. Perdants : économies pétrolières, entreprises de services énergétiques, consommateurs de carburant."}
+      ],
+      "winners": ["Producteurs non-OPEP", "Importateurs d'énergie", "Énergies renouvelables"],
+      "losers": ["Budget saoudien", "Services pétroliers", "Croissance non pétrolière"],
+      "history": {
+        "year": "2014-2016",
+        "title": "La guerre des prix qui a épuisé les réserves",
+        "text": "L'Arabie saoudite avait augmenté sa production pour défendre sa part de marché. Le baril s'est effondré sous 30 dollars, forçant le royaume à puiser dans ses réserves et à lancer Vision 2030."
+      },
+      "concepts": [
+        {"term": "OPEP+", "definition": "Cartel élargi de producteurs qui coordonne les quotas pour influencer le prix du pétrole."},
+        {"term": "Rente pétrolière", "definition": "Revenu tiré de l'écart entre coût d'extraction et prix de vente. Il finance l'État sans passer par l'impôt."},
+        {"term": "Breakeven budgétaire", "definition": "Prix du baril nécessaire pour équilibrer le budget. Plus il est élevé, plus le pays est vulnérable à une baisse des cours."}
+      ]
+    },
+    {
+      "id": "uae-corporate-tax-2023",
+      "country": "uae",
+      "date": "juin 2023",
+      "category": "Fiscalité",
+      "title": "Les Émirats introduisent un impôt sur les sociétés",
+      "source": "Ministère des Finances des ÉAU",
+      "summary": "Le pays à fiscalité quasi nulle adopte un impôt de 9 % sur les bénéfices. Un tournant pour un modèle qui attirait les sièges sociaux par l'absence d'impôt.",
+      "chain": [
+        {"label": "Événement", "text": "Les Émirats introduisent un impôt fédéral sur les sociétés de 9 % au-delà d'un seuil de bénéfices, avec des exonérations pour les zones franches qualifiées."},
+        {"label": "Conséquence économique", "text": "Les entreprises doivent revoir leur structure et leur prix de transfert. Les activités à faible marge deviennent moins attractives, les services à forte valeur ajoutée restent compétitifs."},
+        {"label": "Conséquence financière", "text": "Les recettes publiques se diversifient au-delà du pétrole. Les investisseurs surveillent la conformité et la substance réelle des structures."},
+        {"label": "Gagnants / perdants", "text": "Gagnants : budget fédéral, cabinets de conseil, activités à forte marge. Perdants : sociétés-écrans, commerçants à faible marge, juridictions offshore concurrentes."}
+      ],
+      "winners": ["Budget fédéral", "Conseil fiscal", "Services à forte marge"],
+      "losers": ["Sociétés-écrans", "Négoce à faible marge", "Paradis fiscaux concurrents"],
+      "history": {
+        "year": "2018",
+        "title": "La TVA change le contrat social",
+        "text": "Les Émirats avaient introduit une TVA de 5 %, alors que la rente pétrolière ne suffisait plus. L'impôt sur les sociétés prolonge cette transition vers une fiscalité moderne."
+      },
+      "concepts": [
+        {"term": "Prix de transfert", "definition": "Prix pratiqués entre filiales d'un même groupe. Ils déterminent où les bénéfices sont imposés."},
+        {"term": "Zone franche", "definition": "Territoire douanier et fiscal distinct, conçu pour attirer les entreprises exportatrices."},
+        {"term": "Diversification fiscale", "definition": "Remplacement progressif des recettes pétrolières par des impôts et taxes sur l'économie réelle."}
+      ]
+    },
+    {
+      "id": "morocco-worldcup-2030",
+      "country": "morocco",
+      "date": "octobre 2023",
+      "category": "Investissement",
+      "title": "Le Maroc coorganisera la Coupe du monde 2030",
+      "source": "FIFA",
+      "summary": "Avec l'Espagne et le Portugal, le Maroc obtient la coorganisation du Mondial 2030. Le pays accélère ses investissements dans les stades, les transports et l'hôtellerie.",
+      "chain": [
+        {"label": "Événement", "text": "La candidature ibéro-marocaine est retenue. Le Maroc devient le premier pays africain à coorganiser un Mondial, après la CAN 2025."},
+        {"label": "Conséquence économique", "text": "Les chantiers d'infrastructures, de stades et d'hôtels soutiennent la croissance et l'emploi. Le risque est celui d'investissements surdimensionnés après l'événement."},
+        {"label": "Conséquence financière", "text": "Les valeurs de la construction, du ciment, du tourisme et des banques montent. L'État s'endette davantage, mais bénéficie d'un effet d'image."},
+        {"label": "Gagnants / perdants", "text": "Gagnants : BTP, tourisme, banques, immobilier. Perdants : contribuables si les coûts dérapent, secteurs négligés par la priorité donnée aux chantiers."}
+      ],
+      "winners": ["BTP", "Tourisme", "Banques marocaines"],
+      "losers": ["Contribuables", "Secteurs hors priorité", "Budget social"],
+      "history": {
+        "year": "2010",
+        "title": "L'Afrique du Sud et l'effet Coupe du monde",
+        "text": "Le Mondial sud-africain a laissé des stades coûteux et peu utilisés. Il a aussi amélioré l'image du pays. La leçon : l'infrastructure doit servir après l'événement, pas seulement pendant."
+      },
+      "concepts": [
+        {"term": "Effet d'annonce", "definition": "Réaction des marchés avant même que les dépenses ou les revenus ne se matérialisent."},
+        {"term": "Multiplicateur d'infrastructure", "definition": "Impact d'un investissement public sur l'activité, d'autant plus fort que l'économie a des capacités inutilisées."},
+        {"term": "Coût d'opportunité", "definition": "Ce à quoi on renonce en affectant une ressource à un usage plutôt qu'à un autre."}
+      ]
+    },
+    {
+      "id": "south-africa-gnu-2024",
+      "country": "south_africa",
+      "date": "juin 2024",
+      "category": "Politique",
+      "title": "L'ANC forme un gouvernement d'unité nationale",
+      "source": "ANC / Parlement sud-africain",
+      "summary": "Pour la première fois depuis 1994, l'ANC perd sa majorité. Une coalition avec l'opposition ouvre une nouvelle ère politique et un espoir de réformes.",
+      "chain": [
+        {"label": "Événement", "text": "L'ANC recueille environ 40 % des voix. Il s'allie au DA et à d'autres partis pour former un gouvernement d'unité nationale."},
+        {"label": "Conséquence économique", "text": "La coalition peut accélérer les réformes de l'électricité et de la logistique, mais elle peut aussi être paralysée par ses désaccords internes."},
+        {"label": "Conséquence financière", "text": "Le rand et les obligations se raffermissent sur l'espoir d'une meilleure gouvernance. Les CDS baissent, mais restent élevés."},
+        {"label": "Gagnants / perdants", "text": "Gagnants : banques, distributeurs, obligations locales. Perdants : entreprises dépendantes de la rente publique, partis populistes."}
+      ],
+      "winners": ["Banques", "Obligations locales", "Rand"],
+      "losers": ["Rentiers de l'État", "Partis populistes", "Entreprises non réformées"],
+      "history": {
+        "year": "1994",
+        "title": "La transition qui a évité la guerre",
+        "text": "La fin de l'apartheid a été négociée, pas arrachée par une révolution. Ce compromis a stabilisé le pays, mais a laissé intacte une grande partie des structures économiques héritées."
+      },
+      "concepts": [
+        {"term": "Gouvernement de coalition", "definition": "Exécutif formé par plusieurs partis qui doivent partager le pouvoir et négocier chaque réforme."},
+        {"term": "Prime de risque politique", "definition": "Surcroît de rendement exigé lorsque la stabilité des décisions publiques est incertaine."},
+        {"term": "Réforme structurelle", "definition": "Mesure qui change le fonctionnement de l'économie : marché du travail, énergie, concurrence, fiscalité."}
+      ]
+    },
+    {
+      "id": "lebanon-ceasefire-2024",
+      "country": "lebanon",
+      "date": "27 novembre 2024",
+      "category": "Géopolitique",
+      "title": "Un cessez-le-feu met fin aux hostilités avec Israël",
+      "source": "Accord de cessez-le-feu",
+      "summary": "Après des mois de guerre, un cessez-le-feu est conclu. Il ouvre une fenêtre pour la reconstruction, mais ne résout ni la faillite bancaire ni la crise politique.",
+      "chain": [
+        {"label": "Événement", "text": "Israël et le Hezbollah acceptent un arrêt des hostilités, avec un déploiement de l'armée libanaise et un mécanisme de surveillance internationale."},
+        {"label": "Conséquence économique", "text": "Les déplacements diminuent et l'aide humanitaire peut circuler. La reconstruction coûtera plusieurs milliards, dans un État sans capacité budgétaire."},
+        {"label": "Conséquence financière", "text": "Les marchés libanais restent illiquides. La livre et les dépôts ne retrouvent pas leur valeur ; aucun CDS ne permet de prix le risque."},
+        {"label": "Gagnants / perdants", "text": "Gagnants : populations déplacées, reconstruction, importateurs. Perdants : banques insolvables, créanciers souverains, épargnants bloqués."}
+      ],
+      "winners": ["Reconstruction", "Aide humanitaire", "Importateurs"],
+      "losers": ["Banques", "Créanciers de l'État", "Épargnants"],
+      "history": {
+        "year": "2006",
+        "title": "La guerre de 33 jours",
+        "text": "Le conflit de 2006 avait déjà détruit des infrastructures et déplacé près d'un million de personnes. La reconstruction avait été financée par des dons, sans régler les fragilités politiques."
+      },
+      "concepts": [
+        {"term": "Risque géopolitique", "definition": "Risque qu'un conflit, une sanction ou une décision militaire modifie brutalement la valeur des actifs."},
+        {"term": "Défaut souverain", "definition": "Situation dans laquelle un État ne rembourse pas sa dette selon les termes prévus."},
+        {"term": "Dollarisation", "definition": "Utilisation d'une devise étrangère pour les transactions et l'épargne, signe de perte de confiance dans la monnaie locale."}
+      ]
+    },
+    {
+      "id": "syria-assad-fall-2024",
+      "country": "syria",
+      "date": "8 décembre 2024",
+      "category": "Géopolitique",
+      "title": "La chute du régime Assad ouvre une transition incertaine",
+      "source": "Événements politiques syriens",
+      "summary": "Une offensive éclair des rebelles met fin à cinquante ans de pouvoir familial. La Syrie entame une reconstruction politique et économique sans institutions solides.",
+      "chain": [
+        {"label": "Événement", "text": "Les forces rebelles entrent à Damas. Bachar al-Assad quitte le pays. Les structures de sécurité et de pouvoir s'effondrent en quelques jours."},
+        {"label": "Conséquence économique", "text": "Une partie des sanctions pourrait être levée, mais l'économie est détruite, la monnaie quasi sans valeur et les compétences parties. L'aide d'urgence domine."},
+        {"label": "Conséquence financière", "text": "Il n'existe ni notation, ni CDS, ni marché actions liquide. Le risque ne peut pas être prix : il est traité comme maximal."},
+        {"label": "Gagnants / perdants", "text": "Gagnants : population libérée, reconstruction, voisins commerciaux. Perdants : réseaux de l'ancien régime, créanciers non documentés, minorités menacées."}
+      ],
+      "winners": ["Reconstruction", "Population civile", "Commerce régional"],
+      "losers": ["Anciens réseaux de pouvoir", "Créanciers", "Minorités"],
+      "history": {
+        "year": "2011",
+        "title": "Le Printemps arabe et la guerre",
+        "text": "Les manifestations de 2011 demandaient des libertés et du travail. La répression a transformé la contestation en guerre civile, avec une internationalisation qui a détruit le pays."
+      },
+      "concepts": [
+        {"term": "Risque d'information", "definition": "Incertitude liée à l'absence de données fiables, qui empêche de valoriser correctement un actif."},
+        {"term": "Sanctions", "definition": "Mesures restrictives qui limitent l'accès au commerce, aux financements et aux technologies."},
+        {"term": "Reconstruction", "definition": "Réinvestissement dans les infrastructures et les institutions après un conflit. Elle peut soutenir la croissance, mais crée aussi des risques de corruption."}
+      ]
+    }
+  ]
+}

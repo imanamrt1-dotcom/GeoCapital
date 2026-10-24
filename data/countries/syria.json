@@ -1,0 +1,207 @@
+{
+  "id": "syria",
+  "name": "Syrie",
+  "official_name": "République arabe syrienne",
+  "iso3": "SYR",
+  "flag": "🇸🇾",
+  "region": "Moyen-Orient",
+  "group": "Frontière",
+  "group_key": "frontier",
+  "headline": "Après la guerre, tout reste à reconstruire.",
+  "summary": "La Syrie sort de plus d'une décennie de guerre civile et de la chute du régime Assad en décembre 2024. Les institutions, la monnaie et les infrastructures sont profondément détruites. L'absence de notation, de CDS et de données fiables n'est pas un détail : c'est le cœur du risque.",
+  "history": [
+    {
+      "year": "1920",
+      "title": "Mandat français",
+      "text": "La Société des Nations confie la Syrie à la France. Les frontières modernes et l'administration centralisée se dessinent dans un territoire morcelé."
+    },
+    {
+      "year": "1946",
+      "title": "Indépendance",
+      "text": "Les troupes françaises quittent le pays. Une période d'instabilité politique s'ouvre, marquée par des coups d'État et des rivalités régionales."
+    },
+    {
+      "year": "1963",
+      "title": "Prise du pouvoir par le Baas",
+      "text": "Le parti Baas installe un régime autoritaire, laïc à l'origine mais dominé par la minorité alaouite. L'armée et les services de renseignement deviennent centraux."
+    },
+    {
+      "year": "1970",
+      "title": "Hafez al-Assad",
+      "text": "Le père de Bachar prend le pouvoir par un coup d'État. Il maintient un équilibre entre patronage, répression et alliances avec l'URSS puis l'Iran."
+    },
+    {
+      "year": "2011",
+      "title": "Révolution et guerre",
+      "text": "Les manifestations du Printemps arabe sont réprimées. Le pays bascule dans une guerre civile internationale, avec l'État islamique, la Russie, l'Iran et la Turquie."
+    },
+    {
+      "year": "2015",
+      "title": "Intervention russe",
+      "text": "Moscou intervient militairement pour sauver le régime. Les frappes aériennes permettent à Damas de reconquérir une partie du territoire."
+    },
+    {
+      "year": "2024",
+      "title": "Chute du régime Assad",
+      "text": "Une offensive éclair des rebelles met fin à cinquante ans de pouvoir familial. Le pays entre dans une transition incertaine, sans institutions fiables ni monnaie stable."
+    }
+  ],
+  "institutions": {
+    "regime": "Transition politique depuis décembre 2024",
+    "executive": "Autorités de transition, légitimité et périmètre encore contestés",
+    "legislature": "Institutions parlementaires en reconstruction",
+    "central_bank": "Banque centrale de Syrie, capacité limitée par les sanctions et la pénurie de devises",
+    "currency": "Livre syrienne (SYP), marché multiple et forte dépréciation",
+    "law": "Héritage du droit civil français, justice et administration à reconstruire",
+    "fact": "Aucune notation souveraine active, aucun CDS coté, des comptes publics non certifiés : le risque est d'abord un risque d'information."
+  },
+  "relations": {
+    "allies": [
+      {
+        "name": "Russie",
+        "note": "Appui militaire historique, bases navale et aérienne à négocier."
+      },
+      {
+        "name": "Iran",
+        "note": "Soutien au régime déchu, influence désormais contestée."
+      },
+      {
+        "name": "Turquie",
+        "note": "Soutien aux groupes rebelles et enjeu kurde."
+      }
+    ],
+    "rivals": [
+      {
+        "name": "Israël",
+        "note": "Frappes régulières et méfiance stratégique."
+      },
+      {
+        "name": "Groupes djihadistes",
+        "note": "Menace sécuritaire et contrôle territorial fragmenté."
+      }
+    ],
+    "dependencies": [
+      {
+        "name": "Aide internationale",
+        "note": "Reconstruction, alimentation et médicaments dépendent des bailleurs."
+      },
+      {
+        "name": "Turquie",
+        "note": "Commerce, énergie et contrôle de factions armées."
+      },
+      {
+        "name": "Sanctions",
+        "note": "Accès au système financier mondial toujours contraint."
+      }
+    ]
+  },
+  "indicators": {
+    "gdp_growth": {
+      "value": -1.2,
+      "unit": "%",
+      "date": "2024",
+      "source": "Estimation Banque mondiale / FMI",
+      "note": "La guerre et la transition empêchent toute reprise durable. L'estimation elle-même est fragile, faute de comptabilité nationale fiable."
+    },
+    "inflation": {
+      "value": 60.0,
+      "unit": "%",
+      "date": "2024",
+      "source": "Estimation",
+      "note": "L'inflation est alimentée par la dépréciation de la livre, les pénuries et les coûts de transaction. Les prix varient fortement selon les régions."
+    },
+    "debt_gdp": {
+      "value": 130,
+      "unit": "%",
+      "date": "2024",
+      "source": "Estimation",
+      "note": "La dette extérieure est en grande partie en défaut ou non documentée. Le ratio doit être lu comme un ordre de grandeur, pas comme une certitude."
+    },
+    "policy_rate": {
+      "value": 10.0,
+      "unit": "%",
+      "date": "2024",
+      "source": "Banque centrale de Syrie",
+      "note": "Le taux directeur ne structure qu'une partie du crédit, tant l'économie est dollarisée et informelle."
+    },
+    "unemployment": {
+      "value": 50.0,
+      "unit": "%",
+      "date": "2024",
+      "source": "Estimation OIT",
+      "note": "La moitié de la population active serait sans emploi ou sous-employée. Les jeunes et les femmes sont les plus touchés."
+    },
+    "reserves": {
+      "value": 1,
+      "unit": "Mds $",
+      "date": "2024",
+      "source": "Estimation",
+      "note": "Les réserves sont quasi épuisées. Il n'existe pas de coussin pour défendre la monnaie ou financer les importations essentielles."
+    },
+    "rating": {
+      "value": "NR",
+      "agency": "Agences",
+      "date": "2024",
+      "source": "S&P / Moody's / Fitch",
+      "note": "Aucune notation active. L'absence de note n'est pas neutre : elle reflète l'impossibilité d'évaluer la capacité et la volonté de payer."
+    },
+    "cds": {
+      "value": null,
+      "unit": "pb",
+      "date": "2024",
+      "source": "Marché",
+      "note": "Aucun CDS coté. Le risque souverain n'a pas de prix observable, ce qui renforce la prime d'incertitude."
+    },
+    "equity_index": {
+      "name": "Damascus Securities Exchange",
+      "level": 100000,
+      "perf_1y": null,
+      "date": "2024",
+      "source": "DSE",
+      "note": "Le marché est minuscule et peu liquide. Ses prix ne constituent pas un signal fiable sur l'économie réelle."
+    },
+    "currency": {
+      "code": "SYP",
+      "name": "Livre syrienne",
+      "perf_1y": null,
+      "date": "2024",
+      "source": "Banque centrale / marché parallèle",
+      "note": "La livre s'est effondrée et plusieurs taux coexistent. La dollarisation informelle est la réponse des ménages à l'incertitude."
+    }
+  },
+  "qualitative": {
+    "outlook": 25,
+    "currency_stability": 2,
+    "governance": 8,
+    "resilience": 10,
+    "business": 8,
+    "openness": 20
+  },
+  "strengths": [
+    "Position géographique au carrefour du Levant.",
+    "Diaspora et compétences techniques dispersées.",
+    "Besoin de reconstruction qui peut attirer des capitaux si la paix tient."
+  ],
+  "risks": [
+    "Transition politique violente et institutions non consolidées.",
+    "Monnaie détruite, sanctions et système financier inopérant.",
+    "Absence totale de données fiables et de prix de marché."
+  ],
+  "opportunities": [
+    "Reconstruction des infrastructures et du logement.",
+    "Réintégration progressive dans le commerce régional.",
+    "Levée des sanctions conditionnée à une transition crédible."
+  ],
+  "quiz": {
+    "question": "Pourquoi l'absence de notation et de CDS est-elle si importante pour la Syrie ?",
+    "options": [
+      "Elle permet d'emprunter moins cher",
+      "Elle prive l'investisseur de tout prix du risque",
+      "Elle garantit la stabilité de la monnaie",
+      "Elle attire automatiquement les bailleurs"
+    ],
+    "answer": 1,
+    "explanation": "Sans note ni CDS, aucun marché ne donne de prix au risque souverain. GeoCapital traite ce vide comme un risque maximal, et non comme une absence de risque."
+  },
+  "order": 10
+}

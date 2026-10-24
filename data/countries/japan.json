@@ -1,0 +1,207 @@
+{
+  "id": "japan",
+  "name": "Japon",
+  "official_name": "Japon",
+  "iso3": "JPN",
+  "flag": "🇯🇵",
+  "region": "Asie de l'Est",
+  "group": "Développé",
+  "group_key": "developed",
+  "headline": "La discipline industrielle face au vieillissement.",
+  "summary": "Le Japon a réussi une industrialisation éclair après 1945, puis a connu la bulle et la déflation. Sa dette publique est la plus élevée du monde développé, mais elle est détenue par des résidents et libellée en yen. Le vrai défi est démographique : moins de travailleurs, plus de dépenses sociales.",
+  "history": [
+    {
+      "year": "1868",
+      "title": "Restauration Meiji",
+      "text": "Le Japon ouvre son économie et industrialise l'État. Il copie les technologies occidentales, crée des conglomérats (zaibatsu) et bâtit une marine moderne."
+    },
+    {
+      "year": "1945",
+      "title": "Défaite et reconstruction",
+      "text": "Après Hiroshima et Nagasaki, le pays est occupé et réformé. Il renonce à la guerre, adopte une constitution pacifiste et se concentre sur la croissance."
+    },
+    {
+      "year": "1955",
+      "title": "Le miracle japonais",
+      "text": "Le Parti libéral-démocrate domine la politique. L'État coordonne l'industrie, les banques financent l'investissement : la croissance dépasse 8 % par an."
+    },
+    {
+      "year": "1989",
+      "title": "Éclatement de la bulle",
+      "text": "Les actions et l'immobilier s'effondrent. Les banques accumulent des créances douteuses et le pays entre dans une longue déflation."
+    },
+    {
+      "year": "1997",
+      "title": "Crise bancaire",
+      "text": "La faillite de grandes institutions force l'État à recapitaliser le système. La dette publique explose pour éviter un effondrement du crédit."
+    },
+    {
+      "year": "2013",
+      "title": "Abenomics",
+      "text": "Trois flèches : politique monétaire agressive, relance budgétaire, réformes structurelles. La Banque du Japon rachète massivement la dette."
+    },
+    {
+      "year": "2024",
+      "title": "Sortie des taux négatifs",
+      "text": "La BOJ normalise prudemment sa politique. Le yen reste faible et la Bourse retrouve des sommets, portée par la gouvernance et les semi-conducteurs."
+    }
+  ],
+  "institutions": {
+    "regime": "Monarchie constitutionnelle parlementaire",
+    "executive": "Premier ministre issu de la Diète, empereur comme symbole",
+    "legislature": "Diète bicamérale : Chambre des représentants et Chambre des conseillers",
+    "central_bank": "Bank of Japan (BOJ), historiquement très accommodante",
+    "currency": "Yen (JPY)",
+    "law": "Droit civil inspiré du modèle allemand, forte stabilité administrative",
+    "fact": "La BOJ détient une part considérable de la dette publique japonaise, ce qui rend la soutenabilité dépendante de sa politique."
+  },
+  "relations": {
+    "allies": [
+      {
+        "name": "États-Unis",
+        "note": "Traité de sécurité et parapluie nucléaire."
+      },
+      {
+        "name": "Australie",
+        "note": "Partenariat stratégique dans l'Indo-Pacifique."
+      },
+      {
+        "name": "Union européenne",
+        "note": "Accord de libre-échange et coopération technologique."
+      }
+    ],
+    "rivals": [
+      {
+        "name": "Chine",
+        "note": "Différends territoriaux et concurrence technologique."
+      },
+      {
+        "name": "Corée du Nord",
+        "note": "Menace balistique et enlèvements non résolus."
+      }
+    ],
+    "dependencies": [
+      {
+        "name": "Chine",
+        "note": "Chaînes de valeur et demande touristique."
+      },
+      {
+        "name": "Moyen-Orient",
+        "note": "Dépendance quasi totale au pétrole importé."
+      },
+      {
+        "name": "États-Unis",
+        "note": "Sécurité et accès au marché, mais risque de frictions commerciales."
+      }
+    ]
+  },
+  "indicators": {
+    "gdp_growth": {
+      "value": 0.3,
+      "unit": "%",
+      "date": "2024",
+      "source": "Cabinet Office / FMI",
+      "note": "La croissance est faible : la consommation pâtit du vieillissement et les exportations dépendent du cycle mondial."
+    },
+    "inflation": {
+      "value": 2.7,
+      "unit": "%",
+      "date": "2024",
+      "source": "Statistics Bureau",
+      "note": "Après des décennies de déflation, l'inflation s'installe. C'est une bonne nouvelle pour les salaires réels, à condition qu'elle reste modérée."
+    },
+    "debt_gdp": {
+      "value": 255,
+      "unit": "%",
+      "date": "2024",
+      "source": "FMI, WEO",
+      "note": "Le ratio est extrême, mais la dette est en yen et détenue localement. La soutenabilité dépend des taux et de la croissance nominale."
+    },
+    "policy_rate": {
+      "value": 0.5,
+      "unit": "%",
+      "date": "janv. 2025",
+      "source": "Bank of Japan",
+      "note": "La BOJ sort très lentement du régime ultra-accommodant. Chaque hausse renchérit le coût de la dette et soutient le yen."
+    },
+    "unemployment": {
+      "value": 2.5,
+      "unit": "%",
+      "date": "2024",
+      "source": "Statistics Bureau",
+      "note": "Le chômage est très faible, mais la population active diminue. La rareté de main-d'œuvre pèse sur les PME."
+    },
+    "reserves": {
+      "value": 1230,
+      "unit": "Mds $",
+      "date": "2024",
+      "source": "Ministère des Finances / FMI",
+      "note": "Le Japon dispose d'immenses réserves, principalement en titres étrangers. Elles servent d'amortisseur en cas de stress sur le yen."
+    },
+    "rating": {
+      "value": "A+",
+      "agency": "S&P",
+      "date": "2024",
+      "source": "S&P Global Ratings",
+      "note": "La note reste élevée grâce à la stabilité institutionnelle et à la dette locale, malgré le ratio de dette record."
+    },
+    "cds": {
+      "value": 30,
+      "unit": "pb",
+      "date": "2024",
+      "source": "CMA / marché",
+      "note": "Le marché ne price pas de risque de défaut à court terme. Les CDS japonais sont parmi les plus bas du G7."
+    },
+    "equity_index": {
+      "name": "Nikkei 225",
+      "level": 39894,
+      "perf_1y": 19.2,
+      "date": "2024",
+      "source": "Nikkei / JPX",
+      "note": "L'indice profite de la faiblesse du yen, de la gouvernance d'entreprise et du cycle des semi-conducteurs."
+    },
+    "currency": {
+      "code": "JPY",
+      "name": "Yen",
+      "perf_1y": -10.0,
+      "date": "2024",
+      "source": "BOJ / BRI",
+      "note": "Le yen faible aide les exportateurs mais renchérit les importations d'énergie et le coût de vie des ménages."
+    }
+  },
+  "qualitative": {
+    "outlook": 55,
+    "currency_stability": 70,
+    "governance": 82,
+    "resilience": 78,
+    "business": 72,
+    "openness": 70
+  },
+  "strengths": [
+    "Institutions stables et niveau de vie élevé.",
+    "Base industrielle et technologique de premier rang.",
+    "Dette publique financée localement et en yen."
+  ],
+  "risks": [
+    "Vieillissement et déclin de la population active.",
+    "Dette publique record sensible à la remontée des taux.",
+    "Dépendance énergétique et démographique aux importations."
+  ],
+  "opportunities": [
+    "Semi-conducteurs, robotique et automatisation du vieillissement.",
+    "Gouvernance d'entreprise en amélioration, retour des actionnaires.",
+    "Tourisme et soft power culturel."
+  ],
+  "quiz": {
+    "question": "Pourquoi la dette japonaise est-elle moins risquée qu'elle n'y paraît ?",
+    "options": [
+      "Elle est libellée en dollars",
+      "Elle est détenue par des résidents et en yen",
+      "Elle est garantie par les États-Unis",
+      "Le Japon n'a pas de déficit"
+    ],
+    "answer": 1,
+    "explanation": "Une dette en monnaie nationale, détenue par des résidents et une banque centrale locale, est plus facile à refinancer. Cela ne supprime pas le risque, mais le transforme."
+  },
+  "order": 3
+}

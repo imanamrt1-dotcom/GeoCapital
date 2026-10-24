@@ -1,0 +1,59 @@
+{
+  "app": {
+    "name": "GeoCapital",
+    "tagline": "Connaître le passé pour anticiper le futur.",
+    "version": "MVP 1.0",
+    "last_update": "Données de référence 2024-2025"
+  },
+  "financial_params": {
+    "risk_free_rate": 4.2,
+    "mature_erp": 4.5,
+    "beta": 1.0,
+    "equity_bond_vol_ratio": 1.5,
+    "risk_free_source": "Taux du Trésor américain à 10 ans, ordre de grandeur 2024-2025",
+    "erp_source": "A. Damodaran, Equity Risk Premiums, janvier 2025"
+  },
+  "sources": [
+    {
+      "name": "Fonds monétaire international — World Economic Outlook",
+      "use": "Croissance, inflation, dette publique, chômage",
+      "url": "https://www.imf.org/en/Publications/WEO"
+    },
+    {
+      "name": "Banques centrales nationales",
+      "use": "Taux directeurs, réserves de change, régimes de change",
+      "url": "https://www.bis.org/statistics/"
+    },
+    {
+      "name": "S&P Global Ratings, Moody's, Fitch",
+      "use": "Notation souveraine et perspective",
+      "url": "https://www.spglobal.com/ratings/"
+    },
+    {
+      "name": "CMA / Bloomberg / Refinitiv",
+      "use": "CDS souverains à 5 ans, ordres de grandeur",
+      "url": "https://www.cmegroup.com/markets/interest-rates/cds.html"
+    },
+    {
+      "name": "Aswath Damodaran — Country Risk",
+      "use": "Prime de risque pays, ERP mature, ratio de volatilité",
+      "url": "https://pages.stern.nyu.edu/~adamodar/"
+    },
+    {
+      "name": "Banque mondiale — Worldwide Governance Indicators",
+      "use": "Qualité de la gouvernance (score qualitatif GeoCapital)",
+      "url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators"
+    },
+    {
+      "name": "Bourses locales et FOUR",
+      "use": "Indices boursiers, performances annuelles, devises",
+      "url": "https://www.world-exchanges.org/"
+    }
+  ],
+  "methodology": {
+    "score": "Cinq composantes notées de 0 à 100, pondérées selon trois profils d'investisseur. Les composantes combinent des indicateurs chiffrés et des scores qualitatifs explicites.",
+    "ke": "Ke = taux sans risque (4,20 %) + bêta (1,0) × prime de risque mature (4,50 %) + prime de risque pays. La prime pays retient le maximum entre le spread de notation et le spread CDS, multiplié par 1,5 (Damodaran).",
+    "missing": "Une notation absente ou un CDS non coté n'est jamais neutralisé : cela réduit le score de solvabilité et bloque le verdict « Investir ».",
+    "disclaimer": "Outil pédagogique. Les données sont indicatives, arrondies et ne constituent ni une recommandation d'investissement, ni une valorisation en temps réel."
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "id": "lebanon",
+  "name": "Liban",
+  "official_name": "République libanaise",
+  "iso3": "LBN",
+  "flag": "🇱🇧",
+  "region": "Moyen-Orient",
+  "group": "Frontière",
+  "group_key": "frontier",
+  "headline": "Un pays faillit, une société tient encore.",
+  "summary": "Le Liban a longtemps servi de place financière et de carrefour commercial au Moyen-Orient. Son modèle confessionnel a maintenu la paix fragile, mais a aussi bloqué les décisions économiques. Depuis 2019, la monnaie, les banques et la dette publique se sont effondrées ; l'absence de prix de marché est elle-même devenue un signal de risque.",
+  "history": [
+    {
+      "year": "1920",
+      "title": "Grand-Liban",
+      "text": "La France crée le Grand-Liban sous mandat. Le pays rassemble des communautés chrétiennes et musulmanes aux équilibres démographiques fragiles."
+    },
+    {
+      "year": "1943",
+      "title": "Indépendance et pacte national",
+      "text": "Un compromis non écrit répartit le pouvoir entre chrétiens et musulmans. La présidence revient à un maronite, le gouvernement à un sunnite, le Parlement à un chiite."
+    },
+    {
+      "year": "1975",
+      "title": "Guerre civile",
+      "text": "Le conflit oppose milices et communautés, avec des interventions syrienne et israélienne. Beyrouth, ancien centre financier, est détruite."
+    },
+    {
+      "year": "1989",
+      "title": "Accords de Taïf",
+      "text": "L'Arabie saoudite parraine un compromis qui met fin à la guerre. Le pouvoir est rééquilibré au profit des musulmans, mais le confessionnalisme reste central."
+    },
+    {
+      "year": "2005",
+      "title": "Révolution du Cèdre",
+      "text": "Après l'assassinat de Rafic Hariri, des manifestations massives poussent l'armée syrienne à se retirer. La classe politique reste largement inchangée."
+    },
+    {
+      "year": "2019-2020",
+      "title": "Effondrement et explosion",
+      "text": "La pénurie de dollars et le défaut sur les eurobonds font perdre au Liban l'essentiel de la valeur de sa monnaie. En août 2020, l'explosion du port de Beyrouth ravage la capitale."
+    },
+    {
+      "year": "2024",
+      "title": "Guerre et cessez-le-feu",
+      "text": "Le conflit entre Israël et le Hezbollah déplace des centaines de milliers de personnes. Un cessez-le-feu ouvre une fenêtre politique, mais les réformes économiques restent bloquées."
+    }
+  ],
+  "institutions": {
+    "regime": "République parlementaire confessionnelle",
+    "executive": "Président maronite, Premier ministre sunnite, gouvernement d'union",
+    "legislature": "Parlement à répartition confessionnelle, blocages fréquents",
+    "central_bank": "Banque du Liban (BDL), au cœur de la crise monétaire",
+    "currency": "Livre libanaise (LBP), régime de change officiel et marché parallèle",
+    "law": "Droit civil inspiré du français, tribunaux confessionnels pour le statut personnel",
+    "fact": "Le Liban n'a pas de notation souveraine active ni de CDS liquide : l'absence de prix est traitée comme un risque, pas comme une neutralité."
+  },
+  "relations": {
+    "allies": [
+      {
+        "name": "France",
+        "note": "Soutien diplomatique et historique, conférence d'aide."
+      },
+      {
+        "name": "Arabie saoudite",
+        "note": "Partenaire financier traditionnel, relations irrégulières."
+      },
+      {
+        "name": "Diaspora",
+        "note": "Les transferts et réseaux libanais à l'étranger amortissent la crise."
+      }
+    ],
+    "rivals": [
+      {
+        "name": "Israël",
+        "note": "Conflit armé récurrent et tensions frontalières."
+      },
+      {
+        "name": "Hezbollah",
+        "note": "Acteur armé et politique qui conteste le monopole de l'État."
+      }
+    ],
+    "dependencies": [
+      {
+        "name": "Iran",
+        "note": "Soutien au Hezbollah et influence politique."
+      },
+      {
+        "name": "Syrie",
+        "note": "Frontière, commerce informel et réfugiés."
+      },
+      {
+        "name": "Importations",
+        "note": "Alimentation, carburant et médicaments dépendent des devises étrangères."
+      }
+    ]
+  },
+  "indicators": {
+    "gdp_growth": {
+      "value": -6.5,
+      "unit": "%",
+      "date": "2024",
+      "source": "FMI / estimations",
+      "note": "L'économie se contracte encore sous l'effet de la guerre et de la destruction. La reprise dépendra de la reconstruction et de la stabilité politique."
+    },
+    "inflation": {
+      "value": 45.0,
+      "unit": "%",
+      "date": "2024",
+      "source": "Administration centrale de la statistique / FMI",
+      "note": "L'inflation reste très élevée après l'effondrement de la livre. Elle détruit le pouvoir d'achat et rend la planification impossible."
+    },
+    "debt_gdp": {
+      "value": 150,
+      "unit": "%",
+      "date": "2024",
+      "source": "Estimation FMI",
+      "note": "La dette est en défaut et largement illiquide. Le ratio est une estimation, car la comptabilité publique et le change faussent la mesure."
+    },
+    "policy_rate": {
+      "value": 20.0,
+      "unit": "%",
+      "date": "2024",
+      "source": "Banque du Liban",
+      "note": "Le taux officiel ne reflète plus les conditions du marché. Le système bancaire est en cours de restructuration et les capitaux sont bloqués."
+    },
+    "unemployment": {
+      "value": 30.0,
+      "unit": "%",
+      "date": "2024",
+      "source": "Estimation OIT / Banque mondiale",
+      "note": "Le chômage et l'émigration des jeunes privent le pays de sa classe moyenne et de ses compétences."
+    },
+    "reserves": {
+      "value": 10,
+      "unit": "Mds $",
+      "date": "2024",
+      "source": "FMI / BDL",
+      "note": "Les réserves nettes sont faibles et en grande partie contraintes. Elles ne suffisent pas à restaurer la confiance dans la monnaie."
+    },
+    "rating": {
+      "value": "D",
+      "agency": "S&P",
+      "date": "2024",
+      "source": "S&P Global Ratings",
+      "note": "Le pays est en défaut souverain. La note D signifie que la dette n'est pas honorée selon ses termes."
+    },
+    "cds": {
+      "value": null,
+      "unit": "pb",
+      "date": "2024",
+      "source": "Marché",
+      "note": "Aucun CDS liquide : la dette est déjà en défaut. Une donnée manquante est traitée comme un signal de risque maximal."
+    },
+    "equity_index": {
+      "name": "BSE Price Index",
+      "level": 1600,
+      "perf_1y": -8.0,
+      "date": "2024",
+      "source": "Beyrouth Stock Exchange",
+      "note": "La Bourse est très peu liquide. Les prix ne reflètent pas correctement la valeur des actifs dans une économie dollarisée et fragmentée."
+    },
+    "currency": {
+      "code": "LBP",
+      "name": "Livre libanaise",
+      "perf_1y": null,
+      "date": "2024",
+      "source": "BDL / marché parallèle",
+      "note": "La livre a perdu l'essentiel de sa valeur depuis 2019. Le taux officiel et le taux parallèle ont longtemps divergé."
+    }
+  },
+  "qualitative": {
+    "outlook": 20,
+    "currency_stability": 8,
+    "governance": 25,
+    "resilience": 25,
+    "business": 30,
+    "openness": 70
+  },
+  "strengths": [
+    "Diaspora entreprenante et réseau international dense.",
+    "Position géographique et traditions commerciales.",
+    "Niveau d'éducation historiquement élevé."
+  ],
+  "risks": [
+    "Défaut souverain et système bancaire insolvable.",
+    "Monnaie détruite et économie largement dollarisée.",
+    "Blocage politique et risque de conflit armé."
+  ],
+  "opportunities": [
+    "Reconstruction et réforme du secteur électrique.",
+    "Restauration de la confiance bancaire et des dépôts.",
+    "Retour des capitaux de la diaspora si un accord avec le FMI aboutit."
+  ],
+  "quiz": {
+    "question": "Quelle particularité institutionnelle rend les décisions libanaises si difficiles ?",
+    "options": [
+      "Un système présidentiel fort",
+      "Un partage confessionnel du pouvoir",
+      "Une monarchie fédérale",
+      "Une union monétaire avec la Syrie"
+    ],
+    "answer": 1,
+    "explanation": "Le système confessionnel répartit les postes entre communautés. Il a maintenu un équilibre politique, mais il permet à chaque bloc de bloquer les réformes."
+  },
+  "order": 9
+}
