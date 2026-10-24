@@ -97,7 +97,10 @@ def _call(prompt: str, max_tokens: int = MAX_TOKENS) -> str | None:
             detail = json.loads(exc.read().decode("utf-8")).get("error", {}).get("message", "")
         except Exception:
             detail = ""
-        _LAST_ERROR = f"API {exc.code}" + (f" — {detail}" if detail else "")
+        if "usage limit" in detail.lower():
+            _LAST_ERROR = f"Quota API épuisé — {detail}"
+        else:
+            _LAST_ERROR = f"API {exc.code}" + (f" — {detail}" if detail else "")
         return None
     except (urllib.error.URLError, TimeoutError) as exc:
         _LAST_ERROR = f"Connexion impossible ({getattr(exc, 'reason', exc)})."
